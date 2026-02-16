@@ -1,1 +1,0 @@
-PATH_TO_JSON = "/Users/frengineer/Documents/Other/ability_maker/parapsy_lists.json"

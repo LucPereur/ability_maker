@@ -1,17 +1,19 @@
 from app.core.config import settings
 from app.api.models import parapsyMode, abilityDescription, modeEnum
+from app.core.prompts import PROMPT_TEMPLATE
+
 import json
 from pathlib import Path
 from typing import Iterator
-from langchain_core.prompts import ChatPromptTemplate
 
-class promptGenerator(ChatPromptTemplate):
+
+class promptGenerator():
     def __init__(
         self,
         mode: parapsyMode,
         ability_input: abilityDescription
     ):
-        self.mode = mode,
+        self.mode = mode
         self.ability_input = ability_input
         self.instructions_path = settings.PATH_TO_JSON
 
@@ -19,7 +21,7 @@ class promptGenerator(ChatPromptTemplate):
     def lazy_prompt_generator(self) -> Iterator[list[dict[str,str]]]:
         with open(self.instructions_path, "r") as f:
             details = json.load(f)
-        details = details[self.mode]
+        details = details[self.mode.value]
 
         list_names = {}
         for index, parapsy_list in enumerate(details['lists']):
@@ -53,6 +55,7 @@ class promptGenerator(ChatPromptTemplate):
 
 
 if __name__ == "__main__":
+
     prompts = promptGenerator(
         mode=modeEnum.TELEPATHY,
         ability_input="Détection de tous les humains conscients dans un rayon de 100 mètres"

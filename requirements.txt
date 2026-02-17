@@ -3,4 +3,5 @@ langchain
 langchain-google-genai
 pandas
 pydantic_settings
+ipykernel
 tdqm

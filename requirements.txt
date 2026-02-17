@@ -5,3 +5,4 @@ pandas
 pydantic_settings
 ipykernel
 tdqm
+numpy

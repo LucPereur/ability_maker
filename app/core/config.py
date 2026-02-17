@@ -11,10 +11,18 @@ class Settings(BaseSettings):
 
     PATH_TO_JSON: str = "/Users/frengineer/Documents/Other/ability_maker/parapsy_lists.json"
 
-    LLM_MODEL: str = "gcp:gemini-2.5-flash"
+    # API Keys
+    GOOGLE_API_KEY: str
+
+    # LLM Configuration
+    LLM_MODEL: str = "gemini-2.5-flash"
     LLM_TEMPERATURE: float = 0.0
 
     RETRIEVAL_COUNT: int = 10
+
+    class Config:
+        env_file = ".env"
+        env_file_encoding = "utf-8"
 
 
 settings = Settings()

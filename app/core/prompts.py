@@ -19,7 +19,7 @@ Tu as le choix entre ces cinq valeurs :
 {item_4} : {item_description_4}
 - 5
 {item_5} : {item_description_5}
-Réponds en détaillant ton raisonnement.
+Réponds avec seulement la valeur numérique, sans aucun autre détail.
         """),
         ("human", "Voici le fonctionnement de la faculté : {ability_description}."),
     ]

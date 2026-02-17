@@ -1,5 +1,5 @@
 from app.core.config import settings
-from app.api.models import parapsyMode, abilityDescription, modeEnum
+from app.api.models import parapsyMode, abilityDescription, parapsyMode
 from app.core.prompts import PROMPT_TEMPLATE
 
 import json
@@ -10,15 +10,15 @@ from typing import Iterator
 class promptGenerator():
     def __init__(
         self,
-        mode: parapsyMode,
+        parapsy_mode: parapsyMode,
         ability_input: abilityDescription
     ):
-        self.mode = mode
+        self.mode = parapsy_mode
         self.ability_input = ability_input
         self.instructions_path = settings.PATH_TO_JSON
 
+    def lazy_prompt_generator(self) -> Iterator[Iterator[dict[str,str]]]:
 
-    def lazy_prompt_generator(self) -> Iterator[list[dict[str,str]]]:
         with open(self.instructions_path, "r") as f:
             details = json.load(f)
         details = details[self.mode.value]
@@ -29,8 +29,11 @@ class promptGenerator():
             list_names[f'list_description_{index+1}'] = parapsy_list['list_description']
 
         for parapsy_list in details['lists']:
+
+            prompt_terms_iterator = []
+
             for parapsy_sublist in parapsy_list['sublists']:
-                
+
                 prompt_terms = {
                     "ability_description":self.ability_input,
                     "mode_adjective":details['adjective'],
@@ -51,15 +54,18 @@ class promptGenerator():
                     prompt_terms[f'item_{item_index+1}'] = item['item_name']
                     prompt_terms[f'item_description_{item_index+1}'] = item['item_description']
                 
-                yield prompt_terms
+                prompt_terms_iterator.append(prompt_terms)
+
+            yield iter(prompt_terms_iterator)
 
 
 if __name__ == "__main__":
 
     prompts = promptGenerator(
-        mode=modeEnum.TELEPATHY,
+        parapsy_mode=parapsyMode.TELEPATHY,
         ability_input="Détection de tous les humains conscients dans un rayon de 100 mètres"
     )
 
-    for prompt in prompts.lazy_prompt_generator():
-        print(prompt)
+    for prompt_list in prompts.lazy_prompt_generator():
+        for prompt_sublist in prompt_list:
+            print(prompt_sublist)

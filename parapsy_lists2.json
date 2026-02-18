@@ -758,7 +758,7 @@
                     "sublists": [
                         {
                             "sublist_name": "Mécanique Différentielle",
-                            "sublist_description": "Application de forces complexes pour ",
+                            "sublist_description": "Application de forces macroscopiques complexes",
                             "items": [
                                 {
                                     "item_name": "non nécessaire",
@@ -800,7 +800,7 @@
                         },
                         {
                             "sublist_name": "Mécanique Microscopique",
-                            "sublist_description": "",
+                            "sublist_description": "Application de forces microscopiques complexes",
                             "items": [
                                 {
                                     "item_name": "non nécessaire",
@@ -842,7 +842,7 @@
                         },
                         {
                             "sublist_name": "Mécanique de Rayonnements",
-                            "sublist_description": "",
+                            "sublist_description": "Manipulation de phénomènes électromagnétiques",
                             "items": [
                                 {
                                     "item_name": "non nécessaire",
@@ -883,8 +883,8 @@
                             ]
                         },
                         {
-                            "sublist_name": "Mécanique Macroscopique",
-                            "sublist_description": "",
+                            "sublist_name": "Mécanique Basique",
+                            "sublist_description": "Application de forces simples à n'importe quelle échelle",
                             "items": [
                                 {
                                     "item_name": "non nécessaire",
@@ -926,7 +926,7 @@
                         },
                         {
                             "sublist_name": "Mécanique Spatiale",
-                            "sublist_description": "",
+                            "sublist_description": "Manipulation dimensionnelle du corps sélectionné",
                             "items": [
                                 {
                                     "item_name": "non nécessaire",
@@ -974,7 +974,7 @@
                     "sublists": [
                         {
                             "sublist_name": "Intensité",
-                            "sublist_description": "",
+                            "sublist_description": "Quantité maximum d'effort applicable par le télékinésiste",
                             "items": [
                                 {
                                     "item_name": "non nécessaire",
@@ -1016,7 +1016,7 @@
                         },
                         {
                             "sublist_name": "Temporalité",
-                            "sublist_description": "",
+                            "sublist_description": "Durée et modalités limitant l'action du télékinésiste au cours du temps",
                             "items": [
                                 {
                                     "item_name": "non nécessaire",
@@ -1032,7 +1032,7 @@
                                 },
                                 {
                                     "item_name": "Force continue",
-                                    "item_description": "L’interaction est maintenue tant que le parapsy est concentré",
+                                    "item_description": "L’interaction est maintenue tant que le télékinésiste est concentré",
                                     "item_description_alt": null,
                                     "item_value": 2
                                 },
@@ -1044,13 +1044,13 @@
                                 },
                                 {
                                     "item_name": "Force libre",
-                                    "item_description": "s’allume et s’éteint au gré du parapsychologies, sans test supplémentaire",
+                                    "item_description": "s’allume et s’éteint au gré du télékinésiste, sans test supplémentaire",
                                     "item_description_alt": null,
                                     "item_value": 4
                                 },
                                 {
                                     "item_name": "Force définitive",
-                                    "item_description": "Pas de limite temporelle (parapsy conscient)",
+                                    "item_description": "Pas de limite temporelle (télékinésiste conscient)",
                                     "item_description_alt": null,
                                     "item_value": 5
                                 }
@@ -1058,7 +1058,7 @@
                         },
                         {
                             "sublist_name": "Déclenchement",
-                            "sublist_description": "",
+                            "sublist_description": "Modalités liées à l'activation de la faculté",
                             "items": [
                                 {
                                     "item_name": "non nécessaire",
@@ -1100,7 +1100,7 @@
                         },
                         {
                             "sublist_name": "Source",
-                            "sublist_description": "",
+                            "sublist_description": "Options de sources d'énergies pour la faculté télékinétique",
                             "items": [
                                 {
                                     "item_name": "non nécessaire",

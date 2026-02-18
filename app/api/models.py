@@ -8,7 +8,7 @@ from pydantic import BaseModel, Field
 
 class parapsyMode(Enum):
     TELEPATHY = "telepathy"
-    TELEKINSIS = "telekinesis"
+    TELEKINESIS = "telekinesis"
 
 
 # ============================================
@@ -39,16 +39,16 @@ class SchemaList(BaseModel):
 
 class SchemaModeDefinition(BaseModel):
     """Root node: Complete mode definition (3 lists)"""
+    name: str
     noun: str
     adjective: str
     general_description: str
     lists: list[SchemaList] = Field(min_length=3, max_length=3)
 
 
-class ParapsySchema(BaseModel):
+class ParapsySchemaList(BaseModel):
     """Top-level: Contains all mode definitions"""
-    telepathy: SchemaModeDefinition
-    telekinesis: SchemaModeDefinition
+    schemas: list[SchemaModeDefinition]
 
 
 # ============================================

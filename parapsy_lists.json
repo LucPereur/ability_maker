@@ -1,1144 +1,1149 @@
 {
-    "telepathy": {
-        "noun": "télépathie",
-        "adjective": "télépathique",
-        "general_description": "Discipline permettant de détecter les esprits, d'accéder à certains de leurs sous-systèmes et d'effectuer des actions sur ces derniers. De la même manière qu'un individu peut agir sur ses propres pensées, son corps, ses souvenirs, etc, le télépathe a un contrôle plus profond et qui peut s'étendre à d'autres esprits que le sien",
-        "lists": [
-            {
-                "list_name": "Détection",
-                "list_description": "Détection de la conscience de créatures biologiques. La distance, à la fois littérale que figurative, le nombre des individus détectés, ainsi que la nature des esprits viennent influer sur la capacité du télépathe à les détecter",
-                "sublists": [
-                    {
-                        "sublist_name": "Trace",
-                        "sublist_description": "",
-                        "items": [
-                            {
-                                "item_name": "non nécessaire",
-                                "item_description": "sous-liste non pertinente",
-                                "item_description_alt": null,
-                                "item_value": 0
-                            },
-                            {
-                                "item_name": "Personne proche",
-                                "item_description": "Connaissance intime",
-                                "item_description_alt": null,
-                                "item_value": 1
-                            },
-                            {
-                                "item_name": "Personne connue",
-                                "item_description": "Souvenir d’interactions passée, informations biométriques de base",
-                                "item_description_alt": null,
-                                "item_value": 2
-                            },
-                            {
-                                "item_name": "Personne aperçue",
-                                "item_description": "Personne connue de visu, ou de réputation",
-                                "item_description_alt": null,
-                                "item_value": 3
-                            },
-                            {
-                                "item_name": "Étranger",
-                                "item_description": "Aucune relation préalable",
-                                "item_description_alt": null,
-                                "item_value": 4
-                            },
-                            {
-                                "item_name": "À l’aveugle",
-                                "item_description": "Pas de certitude sur la présence de la personne",
-                                "item_description_alt": null,
-                                "item_value": 5
-                            }
-                        ]
-                    },
-                    {
-                        "sublist_name": "Complexité",
-                        "sublist_description": "",
-                        "items": [
-                            {
-                                "item_name": "non nécessaire",
-                                "item_description": "sous-liste non pertinente",
-                                "item_description_alt": null,
-                                "item_value": 0
-                            },
-                            {
-                                "item_name": "Conscience proche",
-                                "item_description": "Esprit similaire à celui d’un être humain éveillé",
-                                "item_description_alt": null,
-                                "item_value": 1
-                            },
-                            {
-                                "item_name": "Conscience éloignée",
-                                "item_description": "Esprit conscient différent de celui d’un être humain (grands primates, non-humains conscients)",
-                                "item_description_alt": null,
-                                "item_value": 2
-                            },
-                            {
-                                "item_name": "Conscience limitée",
-                                "item_description": "Esprit réduit, conscience non réfléchie (mammifères)",
-                                "item_description_alt": null,
-                                "item_value": 3
-                            },
-                            {
-                                "item_name": "Conscience passive",
-                                "item_description": "Esprit supérieur (humain, grand primate) en état léthargique (sommeil, coma)",
-                                "item_description_alt": null,
-                                "item_value": 4
-                            },
-                            {
-                                "item_name": "Conscience basique",
-                                "item_description": "Esprit très limité (animaux) ou esprit réduit (mammifères) en état léthargique (sommeil, coma)",
-                                "item_description_alt": null,
-                                "item_value": 5
-                            }
-                        ]
-                    },
-                    {
-                        "sublist_name": "Multiplicité",
-                        "sublist_description": "",
-                        "items": [
-                            {
-                                "item_name": "non nécessaire",
-                                "item_description": "sous-liste non pertinente",
-                                "item_description_alt": null,
-                                "item_value": 0
-                            },
-                            {
-                                "item_name": "Cible unique",
-                                "item_description": "1 cible",
-                                "item_description_alt": null,
-                                "item_value": 1
-                            },
-                            {
-                                "item_name": "Paire",
-                                "item_description": "2 cibles",
-                                "item_description_alt": null,
-                                "item_value": 2
-                            },
-                            {
-                                "item_name": "Groupe",
-                                "item_description": "Max INTELLIGENCE cibles",
-                                "item_description_alt": null,
-                                "item_value": 3
-                            },
-                            {
-                                "item_name": "Foule",
-                                "item_description": "Max 5 x INTELLIGENCE cibles",
-                                "item_description_alt": null,
-                                "item_value": 4
-                            },
-                            {
-                                "item_name": "Population",
-                                "item_description": "Sans limite de nombre",
-                                "item_description_alt": null,
-                                "item_value": 5
-                            }
-                        ]
-                    },
-                    {
-                        "sublist_name": "Distance",
-                        "sublist_description": "",
-                        "items": [
-                            {
-                                "item_name": "non nécessaire",
-                                "item_description": "sous-liste non pertinente",
-                                "item_description_alt": null,
-                                "item_value": 0
-                            },
-                            {
-                                "item_name": "Dialogue établi",
-                                "item_description": "Attention directe réciproque entre la cible et le parapsy",
-                                "item_description_alt": "Contact physique",
-                                "item_value": 1
-                            },
-                            {
-                                "item_name": "Individu perçu",
-                                "item_description": "Attention indirecte ou unilatérale entre la cible et le parapsy",
-                                "item_description_alt": "Dans un rayon de VOLONTÉ mètres",
-                                "item_value": 2
-                            },
-                            {
-                                "item_name": "Distance limitée",
-                                "item_description": "Attention indirecte et unilatérale entre la cible et le parapsy",
-                                "item_description_alt": "Dans un rayon de 10 x VOLONTÉ mètres",
-                                "item_value": 3
-                            },
-                            {
-                                "item_name": "Longue distance",
-                                "item_description": "Ignorance sensorielle réciproque entre la cible et le parapsy",
-                                "item_description_alt": "Dans un rayon de VOLONTÉ kilomètres",
-                                "item_value": 4
-                            },
-                            {
-                                "item_name": "Distance illimitée",
-                                "item_description": "Ignorance existentielle réciproque entre la cible et le parapsy",
-                                "item_description_alt": "Sans limite de distance",
-                                "item_value": 5
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "list_name": "Accès",
-                "list_description": "Accès aux différents niveaux de l'arborescence des systèmes nerveux. Certains composants son plus proches de la surface de l'esprit, tandis que d'autres sont enfouis profondément",
-                "sublists": [
-                    {
-                        "sublist_name": "Système Nerveux Sensoriel",
-                        "sublist_description": "",
-                        "items": [
-                            {
-                                "item_name": "non nécessaire",
-                                "item_description": "sous-liste non pertinente",
-                                "item_description_alt": null,
-                                "item_value": 0
-                            },
-                            {
-                                "item_name": "Sens primaire conscient ",
-                                "item_description": "Vue active, sons entendus",
-                                "item_description_alt": "Système Nerveux pour action impliquant la Caractéristique",
-                                "item_value": 1
-                            },
-                            {
-                                "item_name": "Sens secondaire conscient",
-                                "item_description": "Toucher, goût, odorat, proprioception",
-                                "item_description_alt": "Système Nerveux",
-                                "item_value": 2
-                            },
-                            {
-                                "item_name": "Imagination sensorielle",
-                                "item_description": "Images mentales, sons imaginés",
-                                "item_description_alt": "Malus de Qualité associée la Caractéristique",
-                                "item_value": 3
-                            },
-                            {
-                                "item_name": "Immersion sensorielle",
-                                "item_description": "Contrôle sensoriel sur le sens de la réalité",
-                                "item_description_alt": "Bonus de Qualité associée la Caractéristique",
-                                "item_value": 4
-                            },
-                            {
-                                "item_name": "Perception subliminale",
-                                "item_description": "Stimuli sous le seuil de conscience",
-                                "item_description_alt": "Valeur de la Caractéristique",
-                                "item_value": 5
-                            }
-                        ]
-                    },
-                    {
-                        "sublist_name": "Système Limbique",
-                        "sublist_description": "",
-                        "items": [
-                            {
-                                "item_name": "non nécessaire",
-                                "item_description": "sous-liste non pertinente",
-                                "item_description_alt": null,
-                                "item_value": 0
-                            },
-                            {
-                                "item_name": "Émotions de surface",
-                                "item_description": "Ce que la cible ressent consciemment maintenant",
-                                "item_description_alt": "Système Nerveux pour action impliquant la Caractéristique",
-                                "item_value": 1
-                            },
-                            {
-                                "item_name": "Émotions primaires",
-                                "item_description": "Peur, joie, colère, tristesse",
-                                "item_description_alt": "Système Nerveux",
-                                "item_value": 2
-                            },
-                            {
-                                "item_name": "Émotions complexes",
-                                "item_description": "Jalousie, nostalgie, fierté, honte",
-                                "item_description_alt": "Malus de Qualité associée la Caractéristique",
-                                "item_value": 3
-                            },
-                            {
-                                "item_name": "États affectifs profonds",
-                                "item_description": "Attachement, trauma, désir inconscient",
-                                "item_description_alt": "Bonus de Qualité associée la Caractéristique",
-                                "item_value": 4
-                            },
-                            {
-                                "item_name": "Architecture émotionnelle",
-                                "item_description": "Tempérament, patterns affectifs fondamentaux",
-                                "item_description_alt": "Valeur de la Caractéristique",
-                                "item_value": 5
-                            }
-                        ]
-                    },
-                    {
-                        "sublist_name": "Système Cognitif",
-                        "sublist_description": "",
-                        "items": [
-                            {
-                                "item_name": "non nécessaire",
-                                "item_description": "sous-liste non pertinente",
-                                "item_description_alt": null,
-                                "item_value": 0
-                            },
-                            {
-                                "item_name": "Pensées destinées",
-                                "item_description": "Ce que la cible veut communiquer",
-                                "item_description_alt": "Système Nerveux pour action impliquant la Caractéristique",
-                                "item_value": 1
-                            },
-                            {
-                                "item_name": "Dialogue intérieur",
-                                "item_description": "Pensées verbales conscientes",
-                                "item_description_alt": "Système Nerveux",
-                                "item_value": 2
-                            },
-                            {
-                                "item_name": "Mémoire récente",
-                                "item_description": "Souvenirs des dernières heures/jours",
-                                "item_description_alt": "Malus de Qualité associée la Caractéristique",
-                                "item_value": 3
-                            },
-                            {
-                                "item_name": "Mémoire profonde",
-                                "item_description": "Souvenirs anciens, refoulés, fragmentés",
-                                "item_description_alt": "Bonus de Qualité associée la Caractéristique",
-                                "item_value": 4
-                            },
-                            {
-                                "item_name": "Logique inconscients",
-                                "item_description": "Logique sous-jacente, biais, conditionnements",
-                                "item_description_alt": "Valeur de la Caractéristique",
-                                "item_value": 5
-                            }
-                        ]
-                    },
-                    {
-                        "sublist_name": "Système Nerveux Moteur",
-                        "sublist_description": "",
-                        "items": [
-                            {
-                                "item_name": "non nécessaire",
-                                "item_description": "sous-liste non pertinente",
-                                "item_description_alt": null,
-                                "item_value": 0
-                            },
-                            {
-                                "item_name": "Intention motrice consciente",
-                                "item_description": "Mouvements que la cible planifie",
-                                "item_description_alt": "Système Nerveux pour action impliquant la Caractéristique",
-                                "item_value": 1
-                            },
-                            {
-                                "item_name": "Grands muscles volontaires",
-                                "item_description": "Bras, jambes, torse",
-                                "item_description_alt": "Système Nerveux",
-                                "item_value": 2
-                            },
-                            {
-                                "item_name": "Petits muscles volontaires",
-                                "item_description": "Doigts, yeux, bouche",
-                                "item_description_alt": "Malus de Qualité associée la Caractéristique",
-                                "item_value": 3
-                            },
-                            {
-                                "item_name": "Muscles semi-autonomes",
-                                "item_description": "Respiration, déglutition",
-                                "item_description_alt": "Bonus de Qualité associée la Caractéristique",
-                                "item_value": 4
-                            },
-                            {
-                                "item_name": "Muscles autonomes",
-                                "item_description": "Cœur, digestion, pupilles",
-                                "item_description_alt": "Valeur de la Caractéristique",
-                                "item_value": 5
-                            }
-                        ]
-                    },
-                    {
-                        "sublist_name": "Système Ethéré",
-                        "sublist_description": "",
-                        "items": [
-                            {
-                                "item_name": "non nécessaire",
-                                "item_description": "sous-liste non pertinente",
-                                "item_description_alt": null,
-                                "item_value": 0
-                            },
-                            {
-                                "item_name": "Information identitaire",
-                                "item_description": "Sans information spécifique, image relative",
-                                "item_description_alt": "pour comparaison",
-                                "item_value": 1
-                            },
-                            {
-                                "item_name": "Couverture spatiale",
-                                "item_description": "Image de la taille des ailes",
-                                "item_description_alt": "Accès aux informations parapsychiques (alpha, beta, gamma)",
-                                "item_value": 2
-                            },
-                            {
-                                "item_name": "Réponse fréquentielle",
-                                "item_description": "Couleur des ailes",
-                                "item_description_alt": "Accès aux informations génétiques (mutations, métanthropies)",
-                                "item_value": 3
-                            },
-                            {
-                                "item_name": "Extrémités individuelles",
-                                "item_description": "Image précise des contours des arborescences",
-                                "item_description_alt": "Accès à la mémoire génétique (historique des aïeux, états symbiotiques)",
-                                "item_value": 4
-                            },
-                            {
-                                "item_name": "Structure génétique",
-                                "item_description": "Image précise de l’ensemble des ailes",
-                                "item_description_alt": "Accès aux noeuds individuels, pour les modifications complexes",
-                                "item_value": 5
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "list_name": "Action",
-                "list_description": "Nature et intensité de l'action entreprise par le télépathe. L'intensité peut être l'ampleur des changements opérés par le télépathe ainsi que leur durabilité dans le temps",
-                "sublists": [
-                    {
-                        "sublist_name": "Analyse",
-                        "sublist_description": "",
-                        "items": [
-                            {
-                                "item_name": "non nécessaire",
-                                "item_description": "sous-liste non pertinente",
-                                "item_description_alt": null,
-                                "item_value": 0
-                            },
-                            {
-                                "item_name": "Constat binaire",
-                                "item_description": "Présent/absent, vrai/faux, actif/inactif",
-                                "item_description_alt": null,
-                                "item_value": 1
-                            },
-                            {
-                                "item_name": "Observation d'état",
-                                "item_description": "Intensité, qualité générale",
-                                "item_description_alt": null,
-                                "item_value": 2
-                            },
-                            {
-                                "item_name": "Observation de contenu",
-                                "item_description": "Détails spécifiques, nuances",
-                                "item_description_alt": null,
-                                "item_value": 3
-                            },
-                            {
-                                "item_name": "Cartographie structurelle",
-                                "item_description": "Relations entre éléments, patterns",
-                                "item_description_alt": null,
-                                "item_value": 4
-                            },
-                            {
-                                "item_name": "Analyse archéologique",
-                                "item_description": "Reconstruction de l'historique, origines",
-                                "item_description_alt": null,
-                                "item_value": 5
-                            }
-                        ]
-                    },
-                    {
-                        "sublist_name": "Influence",
-                        "sublist_description": "",
-                        "items": [
-                            {
-                                "item_name": "non nécessaire",
-                                "item_description": "sous-liste non pertinente",
-                                "item_description_alt": null,
-                                "item_value": 0
-                            },
-                            {
-                                "item_name": "Suggestion simple",
-                                "item_description": "Idée unique, claire, non-contraignante",
-                                "item_description_alt": null,
-                                "item_value": 1
-                            },
-                            {
-                                "item_name": "Activation",
-                                "item_description": "Déclenchement basique pouvant impliquer un effort momentané",
-                                "item_description_alt": null,
-                                "item_value": 2
-                            },
-                            {
-                                "item_name": "Suggestion complexe",
-                                "item_description": "Idée nuancée, conditionnelle",
-                                "item_description_alt": null,
-                                "item_value": 3
-                            },
-                            {
-                                "item_name": "Occulter",
-                                "item_description": "Rendre une information temporairement inaccessible",
-                                "item_description_alt": null,
-                                "item_value": 4
-                            },
-                            {
-                                "item_name": "Modification durable",
-                                "item_description": "Implanter un changement",
-                                "item_description_alt": null,
-                                "item_value": 5
-                            }
-                        ]
-                    },
-                    {
-                        "sublist_name": "Attaque",
-                        "sublist_description": "",
-                        "items": [
-                            {
-                                "item_name": "non nécessaire",
-                                "item_description": "sous-liste non pertinente",
-                                "item_description_alt": null,
-                                "item_value": 0
-                            },
-                            {
-                                "item_name": "Distraction",
-                                "item_description": "Briser la concentration, créer du bruit",
-                                "item_description_alt": null,
-                                "item_value": 1
-                            },
-                            {
-                                "item_name": "Engourdir",
-                                "item_description": "Ralentir un processus",
-                                "item_description_alt": null,
-                                "item_value": 2
-                            },
-                            {
-                                "item_name": "Empêcher",
-                                "item_description": "Bloquer une action/pensée spécifique",
-                                "item_description_alt": null,
-                                "item_value": 3
-                            },
-                            {
-                                "item_name": "Surcharge",
-                                "item_description": "Saturer un système",
-                                "item_description_alt": null,
-                                "item_value": 4
-                            },
-                            {
-                                "item_name": "Détruire",
-                                "item_description": "Dommages permanents",
-                                "item_description_alt": null,
-                                "item_value": 5
-                            }
-                        ]
-                    },
-                    {
-                        "sublist_name": "Protection",
-                        "sublist_description": "",
-                        "items": [
-                            {
-                                "item_name": "non nécessaire",
-                                "item_description": "sous-liste non pertinente",
-                                "item_description_alt": null,
-                                "item_value": 0
-                            },
-                            {
-                                "item_name": "Isoler",
-                                "item_description": "Créer une barrière contre influences externes",
-                                "item_description_alt": null,
-                                "item_value": 1
-                            },
-                            {
-                                "item_name": "Renforcer",
-                                "item_description": "Amplifier une capacité/résistance existante",
-                                "item_description_alt": null,
-                                "item_value": 2
-                            },
-                            {
-                                "item_name": "Stabiliser",
-                                "item_description": "Calmer un état perturbé, restaurer l'équilibre",
-                                "item_description_alt": null,
-                                "item_value": 3
-                            },
-                            {
-                                "item_name": "Réparer",
-                                "item_description": "Guérir un trauma psychique, restaurer une mémoire",
-                                "item_description_alt": null,
-                                "item_value": 4
-                            },
-                            {
-                                "item_name": "Restructurer",
-                                "item_description": "Reconfigurer profondément des patterns mentaux",
-                                "item_description_alt": null,
-                                "item_value": 5
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    "telekinesis": {
-        "noun": "télékinésie",
-        "adjective": "télékinétique",
-        "general_description": "Discipline permettant d'explorer le monde physique par la pensée, de sélectionner des corps matériels et de leur appliquer des forces selon certains modes d'interaction. De la même manière qu'un individu peut bouger ses membres et donner une certaine qualité à ses geste, le télékinésiste peut étendre ce contrôle à son environnement",
-        "lists": [
-            {
-                "list_name": "Sélection",
-                "list_description": "Sélection d'un corps matériel. La complexité, la distance, à la fois littérale que figurative, et le niveau d'énergie viennent influencer la capacité du télékinésiste à trouver sa cible dans l'espace",
-                "sublists": [
-                    {
-                        "sublist_name": "Complexité",
-                        "sublist_description": "",
-                        "items": [
-                            {
-                                "item_name": "non nécessaire",
-                                "item_description": "sous-liste non pertinente",
-                                "item_description_alt": null,
-                                "item_value": 0
-                            },
-                            {
-                                "item_name": "Objet homogène",
-                                "item_description": "Matériau uniforme (bille, barre)",
-                                "item_description_alt": null,
-                                "item_value": 1
-                            },
-                            {
-                                "item_name": "Objet composite",
-                                "item_description": "Plusieurs matériaux assemblés (chaise, outil)",
-                                "item_description_alt": null,
-                                "item_value": 2
-                            },
-                            {
-                                "item_name": "Mécanisme simple",
-                                "item_description": "Pièces mobiles basiques (porte, levier)",
-                                "item_description_alt": null,
-                                "item_value": 3
-                            },
-                            {
-                                "item_name": "Système complexe",
-                                "item_description": "Multiples composants interdépendants (horloge, serrure)",
-                                "item_description_alt": null,
-                                "item_value": 4
-                            },
-                            {
-                                "item_name": "Organisme vivant",
-                                "item_description": "Tissus biologiques",
-                                "item_description_alt": null,
-                                "item_value": 5
-                            }
-                        ]
-                    },
-                    {
-                        "sublist_name": "Proximité",
-                        "sublist_description": "",
-                        "items": [
-                            {
-                                "item_name": "non nécessaire",
-                                "item_description": "sous-liste non pertinente",
-                                "item_description_alt": null,
-                                "item_value": 0
-                            },
-                            {
-                                "item_name": "Objet intime",
-                                "item_description": "manipulé tous les jours",
-                                "item_description_alt": "au contact de la peau",
-                                "item_value": 1
-                            },
-                            {
-                                "item_name": "Objet familier",
-                                "item_description": "objet spécifique souvent perçu",
-                                "item_description_alt": "en ligne de vue directe proche (détails perceptibles)",
-                                "item_value": 2
-                            },
-                            {
-                                "item_name": "Objet connu",
-                                "item_description": "objet commun non-spécifique fréquemment utilisé",
-                                "item_description_alt": "en ligne de vue directe lointaine",
-                                "item_value": 3
-                            },
-                            {
-                                "item_name": "Objet distant",
-                                "item_description": "objet dont l’existence est connue",
-                                "item_description_alt": "objet dont la localisation est connue",
-                                "item_value": 4
-                            },
-                            {
-                                "item_name": "Objet inconnu",
-                                "item_description": "objet dont l’existence est inconnue (particules et cellules incluses)",
-                                "item_description_alt": "objet dont la localisation est inconnue",
-                                "item_value": 5
-                            }
-                        ]
-                    },
-                    {
-                        "sublist_name": "Matériel",
-                        "sublist_description": "",
-                        "items": [
-                            {
-                                "item_name": "non nécessaire",
-                                "item_description": "sous-liste non pertinente",
-                                "item_description_alt": null,
-                                "item_value": 0
-                            },
-                            {
-                                "item_name": "Solides",
-                                "item_description": "Solides",
-                                "item_description_alt": null,
-                                "item_value": 1
-                            },
-                            {
-                                "item_name": "Liquides",
-                                "item_description": "Liquides",
-                                "item_description_alt": null,
-                                "item_value": 2
-                            },
-                            {
-                                "item_name": "Gaz",
-                                "item_description": "Gaz",
-                                "item_description_alt": null,
-                                "item_value": 3
-                            },
-                            {
-                                "item_name": "Matériaux",
-                                "item_description": "Matériaux",
-                                "item_description_alt": null,
-                                "item_value": 4
-                            },
-                            {
-                                "item_name": "Éléments",
-                                "item_description": "Éléments",
-                                "item_description_alt": null,
-                                "item_value": 5
-                            }
-                        ]
-                    },
-                    {
-                        "sublist_name": "Énergie",
-                        "sublist_description": "",
-                        "items": [
-                            {
-                                "item_name": "non nécessaire",
-                                "item_description": "sous-liste non pertinente",
-                                "item_description_alt": null,
-                                "item_value": 0
-                            },
-                            {
-                                "item_name": "Basse",
-                                "item_description": "cinétique et température basse, basse densité, faibles rayonnements",
-                                "item_description_alt": null,
-                                "item_value": 1
-                            },
-                            {
-                                "item_name": "Densité",
-                                "item_description": "objets denses",
-                                "item_description_alt": null,
-                                "item_value": 2
-                            },
-                            {
-                                "item_name": "Cinétique",
-                                "item_description": "objets lourds et/ou rapides",
-                                "item_description_alt": null,
-                                "item_value": 3
-                            },
-                            {
-                                "item_name": "Thermique",
-                                "item_description": "objets chauds",
-                                "item_description_alt": null,
-                                "item_value": 4
-                            },
-                            {
-                                "item_name": "Rayonnant",
-                                "item_description": "objets émettant des rayonnements spécifiques/particules",
-                                "item_description_alt": null,
-                                "item_value": 5
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "list_name": "Interaction",
-                "list_description": "Nature de l'effet appliqué par le télékinésiste. L'échelle et la compléxité de l'effet sont les principales sources de la difficulté d'un interaction télékinétique",
-                "sublists": [
-                    {
-                        "sublist_name": "Mécanique Différentielle",
-                        "sublist_description": "",
-                        "items": [
-                            {
-                                "item_name": "non nécessaire",
-                                "item_description": "sous-liste non pertinente",
-                                "item_description_alt": null,
-                                "item_value": 0
-                            },
-                            {
-                                "item_name": "Saisir",
-                                "item_description": "Forces multiples aux directions et intensités variables pour les tâches manuelles de base",
-                                "item_description_alt": null,
-                                "item_value": 1
-                            },
-                            {
-                                "item_name": "Cisailler",
-                                "item_description": "Forces opposées décalées de part et d’autre d’un plan central",
-                                "item_description_alt": null,
-                                "item_value": 2
-                            },
-                            {
-                                "item_name": "Comprimer",
-                                "item_description": "Forces uniformes dirigées vers un point central",
-                                "item_description_alt": null,
-                                "item_value": 3
-                            },
-                            {
-                                "item_name": "Exploser",
-                                "item_description": "Forces uniformes opposées à un point central",
-                                "item_description_alt": null,
-                                "item_value": 4
-                            },
-                            {
-                                "item_name": "Manipuler",
-                                "item_description": "Forces multiples aux directions et intensités variables pour les tâches minutieuses",
-                                "item_description_alt": null,
-                                "item_value": 5
-                            }
-                        ]
-                    },
-                    {
-                        "sublist_name": "Mécanique Microscopique",
-                        "sublist_description": "",
-                        "items": [
-                            {
-                                "item_name": "non nécessaire",
-                                "item_description": "sous-liste non pertinente",
-                                "item_description_alt": null,
-                                "item_value": 0
-                            },
-                            {
-                                "item_name": "Répandre",
-                                "item_description": "Dispersion contrôlée des éléments constitutifs dans l'espace environnant",
-                                "item_description_alt": null,
-                                "item_value": 1
-                            },
-                            {
-                                "item_name": "Extraire",
-                                "item_description": "Isolation et retrait ciblé de composants spécifiques",
-                                "item_description_alt": null,
-                                "item_value": 2
-                            },
-                            {
-                                "item_name": "Osciller",
-                                "item_description": "Induction de vibrations ou mouvements périodiques (sons, chaleur)",
-                                "item_description_alt": null,
-                                "item_value": 3
-                            },
-                            {
-                                "item_name": "Recombiner",
-                                "item_description": "Réarrangement et réassemblage des éléments constitutifs selon de nouvelles configurations",
-                                "item_description_alt": null,
-                                "item_value": 4
-                            },
-                            {
-                                "item_name": "Désintégrer",
-                                "item_description": "Rupture complète des liaisons maintenant la cohésion de la matière",
-                                "item_description_alt": null,
-                                "item_value": 5
-                            }
-                        ]
-                    },
-                    {
-                        "sublist_name": "Mécanique de Rayonnements",
-                        "sublist_description": "",
-                        "items": [
-                            {
-                                "item_name": "non nécessaire",
-                                "item_description": "sous-liste non pertinente",
-                                "item_description_alt": null,
-                                "item_value": 0
-                            },
-                            {
-                                "item_name": "Dévier",
-                                "item_description": "Modification de la trajectoire des rayonnements sans altération de leurs propriétés intrinsèques",
-                                "item_description_alt": null,
-                                "item_value": 1
-                            },
-                            {
-                                "item_name": "Diffuser",
-                                "item_description": "Dispersion spatiale multidirectionnelle des rayonnements",
-                                "item_description_alt": null,
-                                "item_value": 2
-                            },
-                            {
-                                "item_name": "Moduler",
-                                "item_description": "Altération contrôlée des propriétés des rayonnements (fréquence, intensité, phase, polarisation)",
-                                "item_description_alt": null,
-                                "item_value": 3
-                            },
-                            {
-                                "item_name": "Absorber",
-                                "item_description": "Capture et neutralisation totale ou partielle des rayonnements",
-                                "item_description_alt": null,
-                                "item_value": 4
-                            },
-                            {
-                                "item_name": "Concentrer",
-                                "item_description": "Focalisation et intensification spatiale des rayonnements vers un point ou volume réduit",
-                                "item_description_alt": null,
-                                "item_value": 5
-                            }
-                        ]
-                    },
-                    {
-                        "sublist_name": "Mécanique Macroscopique",
-                        "sublist_description": "",
-                        "items": [
-                            {
-                                "item_name": "non nécessaire",
-                                "item_description": "sous-liste non pertinente",
-                                "item_description_alt": null,
-                                "item_value": 0
-                            },
-                            {
-                                "item_name": "Attirer",
-                                "item_description": "Force ramenant l’objet vers la main du parapsy",
-                                "item_description_alt": null,
-                                "item_value": 1
-                            },
-                            {
-                                "item_name": "Lancer",
-                                "item_description": "Force unique déplaçant l’objet dans n’importe quelle direction",
-                                "item_description_alt": null,
-                                "item_value": 2
-                            },
-                            {
-                                "item_name": "Mitrailler",
-                                "item_description": "Comme « Attirer » et « Lancer » mais avec plusieurs objets dont la sélection est identique",
-                                "item_description_alt": null,
-                                "item_value": 3
-                            },
-                            {
-                                "item_name": "Fixer",
-                                "item_description": "Rendre constante la distance entre deux objets sélectionnés",
-                                "item_description_alt": null,
-                                "item_value": 4
-                            },
-                            {
-                                "item_name": "Tordre",
-                                "item_description": "Force rotatives autour d’un point central",
-                                "item_description_alt": null,
-                                "item_value": 5
-                            }
-                        ]
-                    },
-                    {
-                        "sublist_name": "Mécanique Spatiale",
-                        "sublist_description": "",
-                        "items": [
-                            {
-                                "item_name": "non nécessaire",
-                                "item_description": "sous-liste non pertinente",
-                                "item_description_alt": null,
-                                "item_value": 0
-                            },
-                            {
-                                "item_name": "Déformer",
-                                "item_description": "Modification des proportions d’un objet selon un ou plusieurs axes (si personne déformée, réduction des distances)",
-                                "item_description_alt": null,
-                                "item_value": 1
-                            },
-                            {
-                                "item_name": "Visiter",
-                                "item_description": "Sans échange massique équivalent, déplacement éphémère de l’objet dans un lieu sélectionné de la même manière qu’un potentiel objet par la liste « proximité »",
-                                "item_description_alt": null,
-                                "item_value": 2
-                            },
-                            {
-                                "item_name": "Échanger",
-                                "item_description": "Avec un échange de masse équivalent, déplacement définitif",
-                                "item_description_alt": null,
-                                "item_value": 3
-                            },
-                            {
-                                "item_name": "Grouper",
-                                "item_description": "Listes précédentes possibles avec plusieurs objets dont la sélection est identique",
-                                "item_description_alt": null,
-                                "item_value": 4
-                            },
-                            {
-                                "item_name": "Disparaître",
-                                "item_description": "Accès au non-espace, transport possible via les options précédentes dans une dimension où le temps ne se déroule pas. Définitif impossible car pas de matière à échanger sur place",
-                                "item_description_alt": null,
-                                "item_value": 5
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "list_name": "Application",
-                "list_description": "Modalités de l'action télékinétique. Vient proposer différentes options relatives à l'intensité, la temporalité, et l'énergie nécessaire à l'effet télékinétique",
-                "sublists": [
-                    {
-                        "sublist_name": "Intensité",
-                        "sublist_description": "",
-                        "items": [
-                            {
-                                "item_name": "non nécessaire",
-                                "item_description": "sous-liste non pertinente",
-                                "item_description_alt": null,
-                                "item_value": 0
-                            },
-                            {
-                                "item_name": "Analyse",
-                                "item_description": "Force minimale à visée diagnostique et exploratoire",
-                                "item_description_alt": null,
-                                "item_value": 1
-                            },
-                            {
-                                "item_name": "Faible",
-                                "item_description": "Force de manipulation délicate",
-                                "item_description_alt": null,
-                                "item_value": 2
-                            },
-                            {
-                                "item_name": "Moyenne",
-                                "item_description": "Force d'usage courant et contrôlé",
-                                "item_description_alt": null,
-                                "item_value": 3
-                            },
-                            {
-                                "item_name": "Forte",
-                                "item_description": "Force d'impact significatif et d'effet marqué",
-                                "item_description_alt": null,
-                                "item_value": 4
-                            },
-                            {
-                                "item_name": "Brutale",
-                                "item_description": "Force maximale aux effets destructeurs",
-                                "item_description_alt": null,
-                                "item_value": 5
-                            }
-                        ]
-                    },
-                    {
-                        "sublist_name": "Temporalité",
-                        "sublist_description": "",
-                        "items": [
-                            {
-                                "item_name": "non nécessaire",
-                                "item_description": "sous-liste non pertinente",
-                                "item_description_alt": null,
-                                "item_value": 0
-                            },
-                            {
-                                "item_name": "Force éphémère",
-                                "item_description": "L’interaction s’arrête après un laps de temps",
-                                "item_description_alt": null,
-                                "item_value": 1
-                            },
-                            {
-                                "item_name": "Force continue",
-                                "item_description": "L’interaction est maintenue tant que le parapsy est concentré",
-                                "item_description_alt": null,
-                                "item_value": 2
-                            },
-                            {
-                                "item_name": "Force instantanée",
-                                "item_description": "Pic d'énergie unique très bref",
-                                "item_description_alt": null,
-                                "item_value": 3
-                            },
-                            {
-                                "item_name": "Force libre",
-                                "item_description": "s’allume et s’éteint au gré du parapsychologies, sans test supplémentaire",
-                                "item_description_alt": null,
-                                "item_value": 4
-                            },
-                            {
-                                "item_name": "Force définitive",
-                                "item_description": "Pas de limite temporelle (parapsy conscient)",
-                                "item_description_alt": null,
-                                "item_value": 5
-                            }
-                        ]
-                    },
-                    {
-                        "sublist_name": "Déclenchement",
-                        "sublist_description": "",
-                        "items": [
-                            {
-                                "item_name": "non nécessaire",
-                                "item_description": "sous-liste non pertinente",
-                                "item_description_alt": null,
-                                "item_value": 0
-                            },
-                            {
-                                "item_name": "Déclenchement immédiat",
-                                "item_description": "Base, déclenchement au moment où la faculté est conçue",
-                                "item_description_alt": null,
-                                "item_value": 1
-                            },
-                            {
-                                "item_name": "Déclenchement retardé",
-                                "item_description": "Déclenchement après durée déterminée",
-                                "item_description_alt": null,
-                                "item_value": 2
-                            },
-                            {
-                                "item_name": "Déclenchement séquentiel",
-                                "item_description": "Activation synchronisée de plusieurs effets",
-                                "item_description_alt": null,
-                                "item_value": 3
-                            },
-                            {
-                                "item_name": "Déclenchement simultané",
-                                "item_description": "Activation planifiée de plusieurs effets",
-                                "item_description_alt": null,
-                                "item_value": 4
-                            },
-                            {
-                                "item_name": "Déclenchement automatique",
-                                "item_description": "Activation conditionnelle lors d'un événement spécifique (contact, proximité, etc.)",
-                                "item_description_alt": null,
-                                "item_value": 5
-                            }
-                        ]
-                    },
-                    {
-                        "sublist_name": "Source",
-                        "sublist_description": "",
-                        "items": [
-                            {
-                                "item_name": "non nécessaire",
-                                "item_description": "sous-liste non pertinente",
-                                "item_description_alt": null,
-                                "item_value": 0
-                            },
-                            {
-                                "item_name": "Énergie personnelle",
-                                "item_description": "Le corps du Parapsy fournit l’énergie via ses muscles",
-                                "item_description_alt": null,
-                                "item_value": 1
-                            },
-                            {
-                                "item_name": "Énergie relative",
-                                "item_description": " L’énergie est copiée d’un autre objet (même propriétés)",
-                                "item_description_alt": null,
-                                "item_value": 2
-                            },
-                            {
-                                "item_name": "Énergie transformée",
-                                "item_description": "L’énergie provient du corps du parapsy ou d’un second objet, mais les directions peuvent être contrôlées (conversion des propriétés)",
-                                "item_description_alt": null,
-                                "item_value": 3
-                            },
-                            {
-                                "item_name": "Énergie multiple",
-                                "item_description": "L’énergie provient de plusieurs corps physiques",
-                                "item_description_alt": null,
-                                "item_value": 4
-                            },
-                            {
-                                "item_name": "Énergie psychique",
-                                "item_description": "La totalité de l’énergie est issue de la psyché du parapsy, aucune copie d’objet réel n’est nécessaire",
-                                "item_description_alt": null,
-                                "item_value": 5
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    }
+    "schemas": 
+    [
+        {
+            "name":"telepathy",
+            "noun": "télépathie",
+            "adjective": "télépathique",
+            "general_description": "Discipline permettant de détecter les esprits, d'accéder à certains de leurs sous-systèmes et d'effectuer des actions sur ces derniers. De la même manière qu'un individu peut agir sur ses propres pensées, son corps, ses souvenirs, etc, le télépathe a un contrôle plus profond et qui peut s'étendre à d'autres esprits que le sien",
+            "lists": [
+                {
+                    "list_name": "Détection",
+                    "list_description": "Détection de la conscience de créatures biologiques. La distance, à la fois littérale que figurative, le nombre des individus détectés, ainsi que la nature des esprits viennent influer sur la capacité du télépathe à les détecter",
+                    "sublists": [
+                        {
+                            "sublist_name": "Trace",
+                            "sublist_description": "",
+                            "items": [
+                                {
+                                    "item_name": "non nécessaire",
+                                    "item_description": "sous-liste non pertinente",
+                                    "item_description_alt": null,
+                                    "item_value": 0
+                                },
+                                {
+                                    "item_name": "Personne proche",
+                                    "item_description": "Connaissance intime",
+                                    "item_description_alt": null,
+                                    "item_value": 1
+                                },
+                                {
+                                    "item_name": "Personne connue",
+                                    "item_description": "Souvenir d’interactions passée, informations biométriques de base",
+                                    "item_description_alt": null,
+                                    "item_value": 2
+                                },
+                                {
+                                    "item_name": "Personne aperçue",
+                                    "item_description": "Personne connue de visu, ou de réputation",
+                                    "item_description_alt": null,
+                                    "item_value": 3
+                                },
+                                {
+                                    "item_name": "Étranger",
+                                    "item_description": "Aucune relation préalable",
+                                    "item_description_alt": null,
+                                    "item_value": 4
+                                },
+                                {
+                                    "item_name": "À l’aveugle",
+                                    "item_description": "Pas de certitude sur la présence de la personne",
+                                    "item_description_alt": null,
+                                    "item_value": 5
+                                }
+                            ]
+                        },
+                        {
+                            "sublist_name": "Complexité",
+                            "sublist_description": "",
+                            "items": [
+                                {
+                                    "item_name": "non nécessaire",
+                                    "item_description": "sous-liste non pertinente",
+                                    "item_description_alt": null,
+                                    "item_value": 0
+                                },
+                                {
+                                    "item_name": "Conscience proche",
+                                    "item_description": "Esprit similaire à celui d’un être humain éveillé",
+                                    "item_description_alt": null,
+                                    "item_value": 1
+                                },
+                                {
+                                    "item_name": "Conscience éloignée",
+                                    "item_description": "Esprit conscient différent de celui d’un être humain (grands primates, non-humains conscients)",
+                                    "item_description_alt": null,
+                                    "item_value": 2
+                                },
+                                {
+                                    "item_name": "Conscience limitée",
+                                    "item_description": "Esprit réduit, conscience non réfléchie (mammifères)",
+                                    "item_description_alt": null,
+                                    "item_value": 3
+                                },
+                                {
+                                    "item_name": "Conscience passive",
+                                    "item_description": "Esprit supérieur (humain, grand primate) en état léthargique (sommeil, coma)",
+                                    "item_description_alt": null,
+                                    "item_value": 4
+                                },
+                                {
+                                    "item_name": "Conscience basique",
+                                    "item_description": "Esprit très limité (animaux) ou esprit réduit (mammifères) en état léthargique (sommeil, coma)",
+                                    "item_description_alt": null,
+                                    "item_value": 5
+                                }
+                            ]
+                        },
+                        {
+                            "sublist_name": "Multiplicité",
+                            "sublist_description": "",
+                            "items": [
+                                {
+                                    "item_name": "non nécessaire",
+                                    "item_description": "sous-liste non pertinente",
+                                    "item_description_alt": null,
+                                    "item_value": 0
+                                },
+                                {
+                                    "item_name": "Cible unique",
+                                    "item_description": "1 cible",
+                                    "item_description_alt": null,
+                                    "item_value": 1
+                                },
+                                {
+                                    "item_name": "Paire",
+                                    "item_description": "2 cibles",
+                                    "item_description_alt": null,
+                                    "item_value": 2
+                                },
+                                {
+                                    "item_name": "Groupe",
+                                    "item_description": "Max INTELLIGENCE cibles",
+                                    "item_description_alt": null,
+                                    "item_value": 3
+                                },
+                                {
+                                    "item_name": "Foule",
+                                    "item_description": "Max 5 x INTELLIGENCE cibles",
+                                    "item_description_alt": null,
+                                    "item_value": 4
+                                },
+                                {
+                                    "item_name": "Population",
+                                    "item_description": "Sans limite de nombre",
+                                    "item_description_alt": null,
+                                    "item_value": 5
+                                }
+                            ]
+                        },
+                        {
+                            "sublist_name": "Distance",
+                            "sublist_description": "",
+                            "items": [
+                                {
+                                    "item_name": "non nécessaire",
+                                    "item_description": "sous-liste non pertinente",
+                                    "item_description_alt": null,
+                                    "item_value": 0
+                                },
+                                {
+                                    "item_name": "Dialogue établi",
+                                    "item_description": "Attention directe réciproque entre la cible et le parapsy",
+                                    "item_description_alt": "Contact physique",
+                                    "item_value": 1
+                                },
+                                {
+                                    "item_name": "Individu perçu",
+                                    "item_description": "Attention indirecte ou unilatérale entre la cible et le parapsy",
+                                    "item_description_alt": "Dans un rayon de VOLONTÉ mètres",
+                                    "item_value": 2
+                                },
+                                {
+                                    "item_name": "Distance limitée",
+                                    "item_description": "Attention indirecte et unilatérale entre la cible et le parapsy",
+                                    "item_description_alt": "Dans un rayon de 10 x VOLONTÉ mètres",
+                                    "item_value": 3
+                                },
+                                {
+                                    "item_name": "Longue distance",
+                                    "item_description": "Ignorance sensorielle réciproque entre la cible et le parapsy",
+                                    "item_description_alt": "Dans un rayon de VOLONTÉ kilomètres",
+                                    "item_value": 4
+                                },
+                                {
+                                    "item_name": "Distance illimitée",
+                                    "item_description": "Ignorance existentielle réciproque entre la cible et le parapsy",
+                                    "item_description_alt": "Sans limite de distance",
+                                    "item_value": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "list_name": "Accès",
+                    "list_description": "Accès aux différents niveaux de l'arborescence des systèmes nerveux. Certains composants son plus proches de la surface de l'esprit, tandis que d'autres sont enfouis profondément",
+                    "sublists": [
+                        {
+                            "sublist_name": "Système Nerveux Sensoriel",
+                            "sublist_description": "",
+                            "items": [
+                                {
+                                    "item_name": "non nécessaire",
+                                    "item_description": "sous-liste non pertinente",
+                                    "item_description_alt": null,
+                                    "item_value": 0
+                                },
+                                {
+                                    "item_name": "Sens primaire conscient ",
+                                    "item_description": "Vue active, sons entendus",
+                                    "item_description_alt": "Système Nerveux pour action impliquant la Caractéristique",
+                                    "item_value": 1
+                                },
+                                {
+                                    "item_name": "Sens secondaire conscient",
+                                    "item_description": "Toucher, goût, odorat, proprioception",
+                                    "item_description_alt": "Système Nerveux",
+                                    "item_value": 2
+                                },
+                                {
+                                    "item_name": "Imagination sensorielle",
+                                    "item_description": "Images mentales, sons imaginés",
+                                    "item_description_alt": "Malus de Qualité associée la Caractéristique",
+                                    "item_value": 3
+                                },
+                                {
+                                    "item_name": "Immersion sensorielle",
+                                    "item_description": "Contrôle sensoriel sur le sens de la réalité",
+                                    "item_description_alt": "Bonus de Qualité associée la Caractéristique",
+                                    "item_value": 4
+                                },
+                                {
+                                    "item_name": "Perception subliminale",
+                                    "item_description": "Stimuli sous le seuil de conscience",
+                                    "item_description_alt": "Valeur de la Caractéristique",
+                                    "item_value": 5
+                                }
+                            ]
+                        },
+                        {
+                            "sublist_name": "Système Limbique",
+                            "sublist_description": "",
+                            "items": [
+                                {
+                                    "item_name": "non nécessaire",
+                                    "item_description": "sous-liste non pertinente",
+                                    "item_description_alt": null,
+                                    "item_value": 0
+                                },
+                                {
+                                    "item_name": "Émotions de surface",
+                                    "item_description": "Ce que la cible ressent consciemment maintenant",
+                                    "item_description_alt": "Système Nerveux pour action impliquant la Caractéristique",
+                                    "item_value": 1
+                                },
+                                {
+                                    "item_name": "Émotions primaires",
+                                    "item_description": "Peur, joie, colère, tristesse",
+                                    "item_description_alt": "Système Nerveux",
+                                    "item_value": 2
+                                },
+                                {
+                                    "item_name": "Émotions complexes",
+                                    "item_description": "Jalousie, nostalgie, fierté, honte",
+                                    "item_description_alt": "Malus de Qualité associée la Caractéristique",
+                                    "item_value": 3
+                                },
+                                {
+                                    "item_name": "États affectifs profonds",
+                                    "item_description": "Attachement, trauma, désir inconscient",
+                                    "item_description_alt": "Bonus de Qualité associée la Caractéristique",
+                                    "item_value": 4
+                                },
+                                {
+                                    "item_name": "Architecture émotionnelle",
+                                    "item_description": "Tempérament, patterns affectifs fondamentaux",
+                                    "item_description_alt": "Valeur de la Caractéristique",
+                                    "item_value": 5
+                                }
+                            ]
+                        },
+                        {
+                            "sublist_name": "Système Cognitif",
+                            "sublist_description": "",
+                            "items": [
+                                {
+                                    "item_name": "non nécessaire",
+                                    "item_description": "sous-liste non pertinente",
+                                    "item_description_alt": null,
+                                    "item_value": 0
+                                },
+                                {
+                                    "item_name": "Pensées destinées",
+                                    "item_description": "Ce que la cible veut communiquer",
+                                    "item_description_alt": "Système Nerveux pour action impliquant la Caractéristique",
+                                    "item_value": 1
+                                },
+                                {
+                                    "item_name": "Dialogue intérieur",
+                                    "item_description": "Pensées verbales conscientes",
+                                    "item_description_alt": "Système Nerveux",
+                                    "item_value": 2
+                                },
+                                {
+                                    "item_name": "Mémoire récente",
+                                    "item_description": "Souvenirs des dernières heures/jours",
+                                    "item_description_alt": "Malus de Qualité associée la Caractéristique",
+                                    "item_value": 3
+                                },
+                                {
+                                    "item_name": "Mémoire profonde",
+                                    "item_description": "Souvenirs anciens, refoulés, fragmentés",
+                                    "item_description_alt": "Bonus de Qualité associée la Caractéristique",
+                                    "item_value": 4
+                                },
+                                {
+                                    "item_name": "Logique inconscients",
+                                    "item_description": "Logique sous-jacente, biais, conditionnements",
+                                    "item_description_alt": "Valeur de la Caractéristique",
+                                    "item_value": 5
+                                }
+                            ]
+                        },
+                        {
+                            "sublist_name": "Système Nerveux Moteur",
+                            "sublist_description": "",
+                            "items": [
+                                {
+                                    "item_name": "non nécessaire",
+                                    "item_description": "sous-liste non pertinente",
+                                    "item_description_alt": null,
+                                    "item_value": 0
+                                },
+                                {
+                                    "item_name": "Intention motrice consciente",
+                                    "item_description": "Mouvements que la cible planifie",
+                                    "item_description_alt": "Système Nerveux pour action impliquant la Caractéristique",
+                                    "item_value": 1
+                                },
+                                {
+                                    "item_name": "Grands muscles volontaires",
+                                    "item_description": "Bras, jambes, torse",
+                                    "item_description_alt": "Système Nerveux",
+                                    "item_value": 2
+                                },
+                                {
+                                    "item_name": "Petits muscles volontaires",
+                                    "item_description": "Doigts, yeux, bouche",
+                                    "item_description_alt": "Malus de Qualité associée la Caractéristique",
+                                    "item_value": 3
+                                },
+                                {
+                                    "item_name": "Muscles semi-autonomes",
+                                    "item_description": "Respiration, déglutition",
+                                    "item_description_alt": "Bonus de Qualité associée la Caractéristique",
+                                    "item_value": 4
+                                },
+                                {
+                                    "item_name": "Muscles autonomes",
+                                    "item_description": "Cœur, digestion, pupilles",
+                                    "item_description_alt": "Valeur de la Caractéristique",
+                                    "item_value": 5
+                                }
+                            ]
+                        },
+                        {
+                            "sublist_name": "Système Ethéré",
+                            "sublist_description": "",
+                            "items": [
+                                {
+                                    "item_name": "non nécessaire",
+                                    "item_description": "sous-liste non pertinente",
+                                    "item_description_alt": null,
+                                    "item_value": 0
+                                },
+                                {
+                                    "item_name": "Information identitaire",
+                                    "item_description": "Sans information spécifique, image relative",
+                                    "item_description_alt": "pour comparaison",
+                                    "item_value": 1
+                                },
+                                {
+                                    "item_name": "Couverture spatiale",
+                                    "item_description": "Image de la taille des ailes",
+                                    "item_description_alt": "Accès aux informations parapsychiques (alpha, beta, gamma)",
+                                    "item_value": 2
+                                },
+                                {
+                                    "item_name": "Réponse fréquentielle",
+                                    "item_description": "Couleur des ailes",
+                                    "item_description_alt": "Accès aux informations génétiques (mutations, métanthropies)",
+                                    "item_value": 3
+                                },
+                                {
+                                    "item_name": "Extrémités individuelles",
+                                    "item_description": "Image précise des contours des arborescences",
+                                    "item_description_alt": "Accès à la mémoire génétique (historique des aïeux, états symbiotiques)",
+                                    "item_value": 4
+                                },
+                                {
+                                    "item_name": "Structure génétique",
+                                    "item_description": "Image précise de l’ensemble des ailes",
+                                    "item_description_alt": "Accès aux noeuds individuels, pour les modifications complexes",
+                                    "item_value": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "list_name": "Action",
+                    "list_description": "Nature et intensité de l'action entreprise par le télépathe. L'intensité peut être l'ampleur des changements opérés par le télépathe ainsi que leur durabilité dans le temps",
+                    "sublists": [
+                        {
+                            "sublist_name": "Analyse",
+                            "sublist_description": "",
+                            "items": [
+                                {
+                                    "item_name": "non nécessaire",
+                                    "item_description": "sous-liste non pertinente",
+                                    "item_description_alt": null,
+                                    "item_value": 0
+                                },
+                                {
+                                    "item_name": "Constat binaire",
+                                    "item_description": "Présent/absent, vrai/faux, actif/inactif",
+                                    "item_description_alt": null,
+                                    "item_value": 1
+                                },
+                                {
+                                    "item_name": "Observation d'état",
+                                    "item_description": "Intensité, qualité générale",
+                                    "item_description_alt": null,
+                                    "item_value": 2
+                                },
+                                {
+                                    "item_name": "Observation de contenu",
+                                    "item_description": "Détails spécifiques, nuances",
+                                    "item_description_alt": null,
+                                    "item_value": 3
+                                },
+                                {
+                                    "item_name": "Cartographie structurelle",
+                                    "item_description": "Relations entre éléments, patterns",
+                                    "item_description_alt": null,
+                                    "item_value": 4
+                                },
+                                {
+                                    "item_name": "Analyse archéologique",
+                                    "item_description": "Reconstruction de l'historique, origines",
+                                    "item_description_alt": null,
+                                    "item_value": 5
+                                }
+                            ]
+                        },
+                        {
+                            "sublist_name": "Influence",
+                            "sublist_description": "",
+                            "items": [
+                                {
+                                    "item_name": "non nécessaire",
+                                    "item_description": "sous-liste non pertinente",
+                                    "item_description_alt": null,
+                                    "item_value": 0
+                                },
+                                {
+                                    "item_name": "Suggestion simple",
+                                    "item_description": "Idée unique, claire, non-contraignante",
+                                    "item_description_alt": null,
+                                    "item_value": 1
+                                },
+                                {
+                                    "item_name": "Activation",
+                                    "item_description": "Déclenchement basique pouvant impliquer un effort momentané",
+                                    "item_description_alt": null,
+                                    "item_value": 2
+                                },
+                                {
+                                    "item_name": "Suggestion complexe",
+                                    "item_description": "Idée nuancée, conditionnelle",
+                                    "item_description_alt": null,
+                                    "item_value": 3
+                                },
+                                {
+                                    "item_name": "Occulter",
+                                    "item_description": "Rendre une information temporairement inaccessible",
+                                    "item_description_alt": null,
+                                    "item_value": 4
+                                },
+                                {
+                                    "item_name": "Modification durable",
+                                    "item_description": "Implanter un changement",
+                                    "item_description_alt": null,
+                                    "item_value": 5
+                                }
+                            ]
+                        },
+                        {
+                            "sublist_name": "Attaque",
+                            "sublist_description": "",
+                            "items": [
+                                {
+                                    "item_name": "non nécessaire",
+                                    "item_description": "sous-liste non pertinente",
+                                    "item_description_alt": null,
+                                    "item_value": 0
+                                },
+                                {
+                                    "item_name": "Distraction",
+                                    "item_description": "Briser la concentration, créer du bruit",
+                                    "item_description_alt": null,
+                                    "item_value": 1
+                                },
+                                {
+                                    "item_name": "Engourdir",
+                                    "item_description": "Ralentir un processus",
+                                    "item_description_alt": null,
+                                    "item_value": 2
+                                },
+                                {
+                                    "item_name": "Empêcher",
+                                    "item_description": "Bloquer une action/pensée spécifique",
+                                    "item_description_alt": null,
+                                    "item_value": 3
+                                },
+                                {
+                                    "item_name": "Surcharge",
+                                    "item_description": "Saturer un système",
+                                    "item_description_alt": null,
+                                    "item_value": 4
+                                },
+                                {
+                                    "item_name": "Détruire",
+                                    "item_description": "Dommages permanents",
+                                    "item_description_alt": null,
+                                    "item_value": 5
+                                }
+                            ]
+                        },
+                        {
+                            "sublist_name": "Protection",
+                            "sublist_description": "",
+                            "items": [
+                                {
+                                    "item_name": "non nécessaire",
+                                    "item_description": "sous-liste non pertinente",
+                                    "item_description_alt": null,
+                                    "item_value": 0
+                                },
+                                {
+                                    "item_name": "Isoler",
+                                    "item_description": "Créer une barrière contre influences externes",
+                                    "item_description_alt": null,
+                                    "item_value": 1
+                                },
+                                {
+                                    "item_name": "Renforcer",
+                                    "item_description": "Amplifier une capacité/résistance existante",
+                                    "item_description_alt": null,
+                                    "item_value": 2
+                                },
+                                {
+                                    "item_name": "Stabiliser",
+                                    "item_description": "Calmer un état perturbé, restaurer l'équilibre",
+                                    "item_description_alt": null,
+                                    "item_value": 3
+                                },
+                                {
+                                    "item_name": "Réparer",
+                                    "item_description": "Guérir un trauma psychique, restaurer une mémoire",
+                                    "item_description_alt": null,
+                                    "item_value": 4
+                                },
+                                {
+                                    "item_name": "Restructurer",
+                                    "item_description": "Reconfigurer profondément des patterns mentaux",
+                                    "item_description_alt": null,
+                                    "item_value": 5
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"telekinesis",
+            "noun": "télékinésie",
+            "adjective": "télékinétique",
+            "general_description": "Discipline permettant d'explorer le monde physique par la pensée, de sélectionner des corps matériels et de leur appliquer des forces selon certains modes d'interaction. De la même manière qu'un individu peut bouger ses membres et donner une certaine qualité à ses geste, le télékinésiste peut étendre ce contrôle à son environnement",
+            "lists": [
+                {
+                    "list_name": "Sélection",
+                    "list_description": "Sélection d'un corps matériel. La complexité, la distance, à la fois littérale que figurative, et le niveau d'énergie viennent influencer la capacité du télékinésiste à trouver sa cible dans l'espace",
+                    "sublists": [
+                        {
+                            "sublist_name": "Complexité",
+                            "sublist_description": "",
+                            "items": [
+                                {
+                                    "item_name": "non nécessaire",
+                                    "item_description": "sous-liste non pertinente",
+                                    "item_description_alt": null,
+                                    "item_value": 0
+                                },
+                                {
+                                    "item_name": "Objet homogène",
+                                    "item_description": "Matériau uniforme (bille, barre)",
+                                    "item_description_alt": null,
+                                    "item_value": 1
+                                },
+                                {
+                                    "item_name": "Objet composite",
+                                    "item_description": "Plusieurs matériaux assemblés (chaise, outil)",
+                                    "item_description_alt": null,
+                                    "item_value": 2
+                                },
+                                {
+                                    "item_name": "Mécanisme simple",
+                                    "item_description": "Pièces mobiles basiques (porte, levier)",
+                                    "item_description_alt": null,
+                                    "item_value": 3
+                                },
+                                {
+                                    "item_name": "Système complexe",
+                                    "item_description": "Multiples composants interdépendants (horloge, serrure)",
+                                    "item_description_alt": null,
+                                    "item_value": 4
+                                },
+                                {
+                                    "item_name": "Organisme vivant",
+                                    "item_description": "Tissus biologiques",
+                                    "item_description_alt": null,
+                                    "item_value": 5
+                                }
+                            ]
+                        },
+                        {
+                            "sublist_name": "Proximité",
+                            "sublist_description": "",
+                            "items": [
+                                {
+                                    "item_name": "non nécessaire",
+                                    "item_description": "sous-liste non pertinente",
+                                    "item_description_alt": null,
+                                    "item_value": 0
+                                },
+                                {
+                                    "item_name": "Objet intime",
+                                    "item_description": "manipulé tous les jours",
+                                    "item_description_alt": "au contact de la peau",
+                                    "item_value": 1
+                                },
+                                {
+                                    "item_name": "Objet familier",
+                                    "item_description": "objet spécifique souvent perçu",
+                                    "item_description_alt": "en ligne de vue directe proche (détails perceptibles)",
+                                    "item_value": 2
+                                },
+                                {
+                                    "item_name": "Objet connu",
+                                    "item_description": "objet commun non-spécifique fréquemment utilisé",
+                                    "item_description_alt": "en ligne de vue directe lointaine",
+                                    "item_value": 3
+                                },
+                                {
+                                    "item_name": "Objet distant",
+                                    "item_description": "objet dont l’existence est connue",
+                                    "item_description_alt": "objet dont la localisation est connue",
+                                    "item_value": 4
+                                },
+                                {
+                                    "item_name": "Objet inconnu",
+                                    "item_description": "objet dont l’existence est inconnue (particules et cellules incluses)",
+                                    "item_description_alt": "objet dont la localisation est inconnue",
+                                    "item_value": 5
+                                }
+                            ]
+                        },
+                        {
+                            "sublist_name": "Matériel",
+                            "sublist_description": "",
+                            "items": [
+                                {
+                                    "item_name": "non nécessaire",
+                                    "item_description": "sous-liste non pertinente",
+                                    "item_description_alt": null,
+                                    "item_value": 0
+                                },
+                                {
+                                    "item_name": "Solides",
+                                    "item_description": "Solides",
+                                    "item_description_alt": null,
+                                    "item_value": 1
+                                },
+                                {
+                                    "item_name": "Liquides",
+                                    "item_description": "Liquides",
+                                    "item_description_alt": null,
+                                    "item_value": 2
+                                },
+                                {
+                                    "item_name": "Gaz",
+                                    "item_description": "Gaz",
+                                    "item_description_alt": null,
+                                    "item_value": 3
+                                },
+                                {
+                                    "item_name": "Matériaux",
+                                    "item_description": "Matériaux",
+                                    "item_description_alt": null,
+                                    "item_value": 4
+                                },
+                                {
+                                    "item_name": "Éléments",
+                                    "item_description": "Éléments",
+                                    "item_description_alt": null,
+                                    "item_value": 5
+                                }
+                            ]
+                        },
+                        {
+                            "sublist_name": "Énergie",
+                            "sublist_description": "",
+                            "items": [
+                                {
+                                    "item_name": "non nécessaire",
+                                    "item_description": "sous-liste non pertinente",
+                                    "item_description_alt": null,
+                                    "item_value": 0
+                                },
+                                {
+                                    "item_name": "Basse",
+                                    "item_description": "cinétique et température basse, basse densité, faibles rayonnements",
+                                    "item_description_alt": null,
+                                    "item_value": 1
+                                },
+                                {
+                                    "item_name": "Densité",
+                                    "item_description": "objets denses",
+                                    "item_description_alt": null,
+                                    "item_value": 2
+                                },
+                                {
+                                    "item_name": "Cinétique",
+                                    "item_description": "objets lourds et/ou rapides",
+                                    "item_description_alt": null,
+                                    "item_value": 3
+                                },
+                                {
+                                    "item_name": "Thermique",
+                                    "item_description": "objets chauds",
+                                    "item_description_alt": null,
+                                    "item_value": 4
+                                },
+                                {
+                                    "item_name": "Rayonnant",
+                                    "item_description": "objets émettant des rayonnements spécifiques/particules",
+                                    "item_description_alt": null,
+                                    "item_value": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "list_name": "Interaction",
+                    "list_description": "Nature de l'effet appliqué par le télékinésiste. L'échelle et la compléxité de l'effet sont les principales sources de la difficulté d'un interaction télékinétique",
+                    "sublists": [
+                        {
+                            "sublist_name": "Mécanique Différentielle",
+                            "sublist_description": "",
+                            "items": [
+                                {
+                                    "item_name": "non nécessaire",
+                                    "item_description": "sous-liste non pertinente",
+                                    "item_description_alt": null,
+                                    "item_value": 0
+                                },
+                                {
+                                    "item_name": "Saisir",
+                                    "item_description": "Forces multiples aux directions et intensités variables pour les tâches manuelles de base",
+                                    "item_description_alt": null,
+                                    "item_value": 1
+                                },
+                                {
+                                    "item_name": "Cisailler",
+                                    "item_description": "Forces opposées décalées de part et d’autre d’un plan central",
+                                    "item_description_alt": null,
+                                    "item_value": 2
+                                },
+                                {
+                                    "item_name": "Comprimer",
+                                    "item_description": "Forces uniformes dirigées vers un point central",
+                                    "item_description_alt": null,
+                                    "item_value": 3
+                                },
+                                {
+                                    "item_name": "Exploser",
+                                    "item_description": "Forces uniformes opposées à un point central",
+                                    "item_description_alt": null,
+                                    "item_value": 4
+                                },
+                                {
+                                    "item_name": "Manipuler",
+                                    "item_description": "Forces multiples aux directions et intensités variables pour les tâches minutieuses",
+                                    "item_description_alt": null,
+                                    "item_value": 5
+                                }
+                            ]
+                        },
+                        {
+                            "sublist_name": "Mécanique Microscopique",
+                            "sublist_description": "",
+                            "items": [
+                                {
+                                    "item_name": "non nécessaire",
+                                    "item_description": "sous-liste non pertinente",
+                                    "item_description_alt": null,
+                                    "item_value": 0
+                                },
+                                {
+                                    "item_name": "Répandre",
+                                    "item_description": "Dispersion contrôlée des éléments constitutifs dans l'espace environnant",
+                                    "item_description_alt": null,
+                                    "item_value": 1
+                                },
+                                {
+                                    "item_name": "Extraire",
+                                    "item_description": "Isolation et retrait ciblé de composants spécifiques",
+                                    "item_description_alt": null,
+                                    "item_value": 2
+                                },
+                                {
+                                    "item_name": "Osciller",
+                                    "item_description": "Induction de vibrations ou mouvements périodiques (sons, chaleur)",
+                                    "item_description_alt": null,
+                                    "item_value": 3
+                                },
+                                {
+                                    "item_name": "Recombiner",
+                                    "item_description": "Réarrangement et réassemblage des éléments constitutifs selon de nouvelles configurations",
+                                    "item_description_alt": null,
+                                    "item_value": 4
+                                },
+                                {
+                                    "item_name": "Désintégrer",
+                                    "item_description": "Rupture complète des liaisons maintenant la cohésion de la matière",
+                                    "item_description_alt": null,
+                                    "item_value": 5
+                                }
+                            ]
+                        },
+                        {
+                            "sublist_name": "Mécanique de Rayonnements",
+                            "sublist_description": "",
+                            "items": [
+                                {
+                                    "item_name": "non nécessaire",
+                                    "item_description": "sous-liste non pertinente",
+                                    "item_description_alt": null,
+                                    "item_value": 0
+                                },
+                                {
+                                    "item_name": "Dévier",
+                                    "item_description": "Modification de la trajectoire des rayonnements sans altération de leurs propriétés intrinsèques",
+                                    "item_description_alt": null,
+                                    "item_value": 1
+                                },
+                                {
+                                    "item_name": "Diffuser",
+                                    "item_description": "Dispersion spatiale multidirectionnelle des rayonnements",
+                                    "item_description_alt": null,
+                                    "item_value": 2
+                                },
+                                {
+                                    "item_name": "Moduler",
+                                    "item_description": "Altération contrôlée des propriétés des rayonnements (fréquence, intensité, phase, polarisation)",
+                                    "item_description_alt": null,
+                                    "item_value": 3
+                                },
+                                {
+                                    "item_name": "Absorber",
+                                    "item_description": "Capture et neutralisation totale ou partielle des rayonnements",
+                                    "item_description_alt": null,
+                                    "item_value": 4
+                                },
+                                {
+                                    "item_name": "Concentrer",
+                                    "item_description": "Focalisation et intensification spatiale des rayonnements vers un point ou volume réduit",
+                                    "item_description_alt": null,
+                                    "item_value": 5
+                                }
+                            ]
+                        },
+                        {
+                            "sublist_name": "Mécanique Macroscopique",
+                            "sublist_description": "",
+                            "items": [
+                                {
+                                    "item_name": "non nécessaire",
+                                    "item_description": "sous-liste non pertinente",
+                                    "item_description_alt": null,
+                                    "item_value": 0
+                                },
+                                {
+                                    "item_name": "Attirer",
+                                    "item_description": "Force ramenant l’objet vers la main du parapsy",
+                                    "item_description_alt": null,
+                                    "item_value": 1
+                                },
+                                {
+                                    "item_name": "Lancer",
+                                    "item_description": "Force unique déplaçant l’objet dans n’importe quelle direction",
+                                    "item_description_alt": null,
+                                    "item_value": 2
+                                },
+                                {
+                                    "item_name": "Mitrailler",
+                                    "item_description": "Comme « Attirer » et « Lancer » mais avec plusieurs objets dont la sélection est identique",
+                                    "item_description_alt": null,
+                                    "item_value": 3
+                                },
+                                {
+                                    "item_name": "Fixer",
+                                    "item_description": "Rendre constante la distance entre deux objets sélectionnés",
+                                    "item_description_alt": null,
+                                    "item_value": 4
+                                },
+                                {
+                                    "item_name": "Tordre",
+                                    "item_description": "Force rotatives autour d’un point central",
+                                    "item_description_alt": null,
+                                    "item_value": 5
+                                }
+                            ]
+                        },
+                        {
+                            "sublist_name": "Mécanique Spatiale",
+                            "sublist_description": "",
+                            "items": [
+                                {
+                                    "item_name": "non nécessaire",
+                                    "item_description": "sous-liste non pertinente",
+                                    "item_description_alt": null,
+                                    "item_value": 0
+                                },
+                                {
+                                    "item_name": "Déformer",
+                                    "item_description": "Modification des proportions d’un objet selon un ou plusieurs axes (si personne déformée, réduction des distances)",
+                                    "item_description_alt": null,
+                                    "item_value": 1
+                                },
+                                {
+                                    "item_name": "Visiter",
+                                    "item_description": "Sans échange massique équivalent, déplacement éphémère de l’objet dans un lieu sélectionné de la même manière qu’un potentiel objet par la liste « proximité »",
+                                    "item_description_alt": null,
+                                    "item_value": 2
+                                },
+                                {
+                                    "item_name": "Échanger",
+                                    "item_description": "Avec un échange de masse équivalent, déplacement définitif",
+                                    "item_description_alt": null,
+                                    "item_value": 3
+                                },
+                                {
+                                    "item_name": "Grouper",
+                                    "item_description": "Listes précédentes possibles avec plusieurs objets dont la sélection est identique",
+                                    "item_description_alt": null,
+                                    "item_value": 4
+                                },
+                                {
+                                    "item_name": "Disparaître",
+                                    "item_description": "Accès au non-espace, transport possible via les options précédentes dans une dimension où le temps ne se déroule pas. Définitif impossible car pas de matière à échanger sur place",
+                                    "item_description_alt": null,
+                                    "item_value": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "list_name": "Application",
+                    "list_description": "Modalités de l'action télékinétique. Vient proposer différentes options relatives à l'intensité, la temporalité, et l'énergie nécessaire à l'effet télékinétique",
+                    "sublists": [
+                        {
+                            "sublist_name": "Intensité",
+                            "sublist_description": "",
+                            "items": [
+                                {
+                                    "item_name": "non nécessaire",
+                                    "item_description": "sous-liste non pertinente",
+                                    "item_description_alt": null,
+                                    "item_value": 0
+                                },
+                                {
+                                    "item_name": "Analyse",
+                                    "item_description": "Force minimale à visée diagnostique et exploratoire",
+                                    "item_description_alt": null,
+                                    "item_value": 1
+                                },
+                                {
+                                    "item_name": "Faible",
+                                    "item_description": "Force de manipulation délicate",
+                                    "item_description_alt": null,
+                                    "item_value": 2
+                                },
+                                {
+                                    "item_name": "Moyenne",
+                                    "item_description": "Force d'usage courant et contrôlé",
+                                    "item_description_alt": null,
+                                    "item_value": 3
+                                },
+                                {
+                                    "item_name": "Forte",
+                                    "item_description": "Force d'impact significatif et d'effet marqué",
+                                    "item_description_alt": null,
+                                    "item_value": 4
+                                },
+                                {
+                                    "item_name": "Brutale",
+                                    "item_description": "Force maximale aux effets destructeurs",
+                                    "item_description_alt": null,
+                                    "item_value": 5
+                                }
+                            ]
+                        },
+                        {
+                            "sublist_name": "Temporalité",
+                            "sublist_description": "",
+                            "items": [
+                                {
+                                    "item_name": "non nécessaire",
+                                    "item_description": "sous-liste non pertinente",
+                                    "item_description_alt": null,
+                                    "item_value": 0
+                                },
+                                {
+                                    "item_name": "Force éphémère",
+                                    "item_description": "L’interaction s’arrête après un laps de temps",
+                                    "item_description_alt": null,
+                                    "item_value": 1
+                                },
+                                {
+                                    "item_name": "Force continue",
+                                    "item_description": "L’interaction est maintenue tant que le parapsy est concentré",
+                                    "item_description_alt": null,
+                                    "item_value": 2
+                                },
+                                {
+                                    "item_name": "Force instantanée",
+                                    "item_description": "Pic d'énergie unique très bref",
+                                    "item_description_alt": null,
+                                    "item_value": 3
+                                },
+                                {
+                                    "item_name": "Force libre",
+                                    "item_description": "s’allume et s’éteint au gré du parapsychologies, sans test supplémentaire",
+                                    "item_description_alt": null,
+                                    "item_value": 4
+                                },
+                                {
+                                    "item_name": "Force définitive",
+                                    "item_description": "Pas de limite temporelle (parapsy conscient)",
+                                    "item_description_alt": null,
+                                    "item_value": 5
+                                }
+                            ]
+                        },
+                        {
+                            "sublist_name": "Déclenchement",
+                            "sublist_description": "",
+                            "items": [
+                                {
+                                    "item_name": "non nécessaire",
+                                    "item_description": "sous-liste non pertinente",
+                                    "item_description_alt": null,
+                                    "item_value": 0
+                                },
+                                {
+                                    "item_name": "Déclenchement immédiat",
+                                    "item_description": "Base, déclenchement au moment où la faculté est conçue",
+                                    "item_description_alt": null,
+                                    "item_value": 1
+                                },
+                                {
+                                    "item_name": "Déclenchement retardé",
+                                    "item_description": "Déclenchement après durée déterminée",
+                                    "item_description_alt": null,
+                                    "item_value": 2
+                                },
+                                {
+                                    "item_name": "Déclenchement séquentiel",
+                                    "item_description": "Activation synchronisée de plusieurs effets",
+                                    "item_description_alt": null,
+                                    "item_value": 3
+                                },
+                                {
+                                    "item_name": "Déclenchement simultané",
+                                    "item_description": "Activation planifiée de plusieurs effets",
+                                    "item_description_alt": null,
+                                    "item_value": 4
+                                },
+                                {
+                                    "item_name": "Déclenchement automatique",
+                                    "item_description": "Activation conditionnelle lors d'un événement spécifique (contact, proximité, etc.)",
+                                    "item_description_alt": null,
+                                    "item_value": 5
+                                }
+                            ]
+                        },
+                        {
+                            "sublist_name": "Source",
+                            "sublist_description": "",
+                            "items": [
+                                {
+                                    "item_name": "non nécessaire",
+                                    "item_description": "sous-liste non pertinente",
+                                    "item_description_alt": null,
+                                    "item_value": 0
+                                },
+                                {
+                                    "item_name": "Énergie personnelle",
+                                    "item_description": "Le corps du Parapsy fournit l’énergie via ses muscles",
+                                    "item_description_alt": null,
+                                    "item_value": 1
+                                },
+                                {
+                                    "item_name": "Énergie relative",
+                                    "item_description": " L’énergie est copiée d’un autre objet (même propriétés)",
+                                    "item_description_alt": null,
+                                    "item_value": 2
+                                },
+                                {
+                                    "item_name": "Énergie transformée",
+                                    "item_description": "L’énergie provient du corps du parapsy ou d’un second objet, mais les directions peuvent être contrôlées (conversion des propriétés)",
+                                    "item_description_alt": null,
+                                    "item_value": 3
+                                },
+                                {
+                                    "item_name": "Énergie multiple",
+                                    "item_description": "L’énergie provient de plusieurs corps physiques",
+                                    "item_description_alt": null,
+                                    "item_value": 4
+                                },
+                                {
+                                    "item_name": "Énergie psychique",
+                                    "item_description": "La totalité de l’énergie est issue de la psyché du parapsy, aucune copie d’objet réel n’est nécessaire",
+                                    "item_description_alt": null,
+                                    "item_value": 5
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+]
 }

@@ -9,7 +9,7 @@ class Settings(BaseSettings):
     LOGGING_LEVEL: Literal[10] = logging.DEBUG
     API_V1_STR: str = "/api/v1"
 
-    PATH_TO_JSON: str = "/Users/frengineer/Documents/Other/ability_maker/parapsy_lists.json"
+    PATH_TO_JSON: str
 
     # API Keys
     GOOGLE_API_KEY: str

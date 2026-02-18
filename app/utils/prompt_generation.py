@@ -1,5 +1,5 @@
 from app.core.config import settings
-from app.api.models import parapsyMode, abilityDescription, parapsyMode, ParapsySchema, compositionItem
+from app.api.models import parapsyMode, abilityDescription, parapsyMode, SchemaModeDefinition, compositionItem
 from app.core.prompts import PROMPT_TEMPLATE
 from app.core.schema_loader import schemaLoader
 import json
@@ -11,7 +11,7 @@ class promptGenerator():
         self,
         parapsy_mode: parapsyMode,
         ability_input: abilityDescription,
-        schema: ParapsySchema
+        schema: SchemaModeDefinition
     ):
         self.parapsy_mode = parapsy_mode
         self.ability_input = ability_input
@@ -19,17 +19,12 @@ class promptGenerator():
 
     def lazy_prompt_generator(self) -> Iterator[Iterator[compositionItem]]:
 
-        if self.parapsy_mode == parapsyMode.TELEPATHY:
-            schema = self.schema.telepathy
-        elif self.parapsy_mode == parapsyMode.TELEKINSIS:
-            schema = schema.telekinesis
-
         list_names = {}
-        for index, parapsy_list in enumerate(schema.lists):
+        for index, parapsy_list in enumerate(self.schema.lists):
             list_names[f'list_name_{index+1}'] = parapsy_list.list_name
             list_names[f'list_description_{index+1}'] = parapsy_list.list_description
 
-        for parapsy_list in schema.lists:
+        for parapsy_list in self.schema.lists:
 
             prompt_terms_iterator = []
 
@@ -37,9 +32,9 @@ class promptGenerator():
                 
                 prompt_terms = {
                     "ability_description":self.ability_input,
-                    "mode_adjective":schema.adjective,
-                    "mode_noun":schema.noun,
-                    "mode_general_description":schema.general_description,
+                    "mode_adjective":self.schema.adjective,
+                    "mode_noun":self.schema.noun,
+                    "mode_general_description":self.schema.general_description,
                     "list_name_1":list_names['list_name_1'],
                     "list_description_1":list_names['list_description_1'],
                     "list_name_2":list_names['list_name_2'],

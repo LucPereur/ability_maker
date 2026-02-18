@@ -15,7 +15,7 @@ class predictionService:
         self.schema_loader = schemaLoader()
     
     def predict(self, ability_input: abilityDescription) -> abilityComposition:
-        schema = self.schema_loader.load_schema()
+        schema = self.schema_loader.load_schema(self.parapsy_mode)
         prompt_generator = promptGenerator(parapsy_mode=self.parapsy_mode, ability_input=ability_input, schema=schema)
         ability_composition = abilityComposition(parapsy_mode=self.parapsy_mode, composition = [])
         for composition_list in tqdm(prompt_generator.lazy_prompt_generator(), desc="lists study"):
@@ -23,7 +23,6 @@ class predictionService:
                 chain = get_chain(llm_model=self.chat_model)
                 score = chain.invoke(composition_item.prompt_terms)
                 item = next((item for item in composition_item.sublist_items if item.item_value == score), None)
-                print(f"{composition_item.list_name} | {composition_item.sublist_name} : {score} -> {item}")
                 composition_item.sublist_selection = item
                 ability_composition.composition.append(composition_item)
 

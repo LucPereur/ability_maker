@@ -3,7 +3,7 @@ from tqdm import tqdm
 
 from app.api.models import parapsyMode, abilityDescription, abilityComposition, SchemaItem
 from app.core.schema_loader import schemaLoader
-from app.utils.decomposition_prompt_generation import decompositionPromptGenerator
+from app.utils.composition_prompt_generation import decompositionPromptGenerator
 from app.chains.composition_chain import get_chain
 from app.chat_model.get_model import model
 from app.utils.print_composition import print_composition

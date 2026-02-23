@@ -1,14 +1,8 @@
-from app.core.prompts import PROMPT_TEMPLATE
-
-import json
-from pathlib import Path
-from typing import Iterator
-from operator import itemgetter
+from app.core.prompts import COMPOSITION_PROMPT_TEMPLATE
 
 from langchain.chat_models.base import _ConfigurableModel
-from langchain_core.output_parsers import StrOutputParser
-from langchain_core.runnables import RunnableParallel, RunnableSerializable
-from langchain_core.output_parsers import StrOutputParser, BaseOutputParser
+from langchain_core.runnables import RunnableSerializable
+from langchain_core.output_parsers import BaseOutputParser
 from langchain_core.exceptions import OutputParserException
 
 class IntegerOutputParser(BaseOutputParser[int]):
@@ -32,7 +26,7 @@ class IntegerOutputParser(BaseOutputParser[int]):
         return "integer_output_parser"
 
 def get_chain(llm_model: _ConfigurableModel) -> RunnableSerializable:
-    return ( PROMPT_TEMPLATE | llm_model | IntegerOutputParser() )
+    return ( COMPOSITION_PROMPT_TEMPLATE | llm_model | IntegerOutputParser() )
 
 
 

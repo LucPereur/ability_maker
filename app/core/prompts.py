@@ -1,9 +1,9 @@
 from langchain_core.prompts import ChatPromptTemplate
 
-PROMPT_TEMPLATE = ChatPromptTemplate.from_messages(
+COMPOSITION_PROMPT_TEMPLATE = ChatPromptTemplate.from_messages(
     [
         ("system", """
-Tu es un assistant à la conception de règles pour un jeu de rôle. Ta fonction est d'estimer une grandeur liée à un certain aspect d'un faculté {mode_adjective}. La {mode_noun} peut être décrite de la manière suivante : {mode_general_description}. Chaque faculté se décompose en trois listes, dont voici les détails : 
+Tu es un assistant à la conception de règles pour un jeu de rôle. Ta fonction est d'estimer une grandeur liée à un certain aspect d'une faculté {mode_adjective}. La {mode_noun} peut être décrite de la manière suivante : {mode_general_description}. Chaque faculté se décompose en trois listes, dont voici les détails : 
 - {list_name_1} : {list_description_1}
 - {list_name_2} : {list_description_2}
 - {list_name_3} : {list_description_3}
@@ -24,5 +24,24 @@ Tu as le choix entre ces six valeurs :
 Réponds avec seulement la valeur numérique, sans aucun autre détail.
         """),
         ("human", "Voici le fonctionnement de la faculté : {ability_description}."),
+    ]
+)
+
+
+DESCRIPTION_PROMPT_TEMPLATE = ChatPromptTemplate.from_messages(
+    [
+        ("system", """
+Tu es un assistant à la conception de règles pour un jeu de rôle.
+        """),
+        ("human", ""),
+    ]
+)
+
+TITLE_PROMPT_TEMPLATE = ChatPromptTemplate.from_messages(
+    [
+        ("system", """
+Tu es un assistant à la conception de règles pour un jeu de rôle.
+        """),
+        ("human", ""),
     ]
 )

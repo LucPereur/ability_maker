@@ -7,9 +7,7 @@ class schemaLoader():
         pass
 
     def _validate(self, to_validate: ParapsySchemaList | SchemaModeDefinition ):
-        """Validate schema structure"""
         try:
-            # This would fail if JSON doesn't have exactly 3 lists
             if isinstance(to_validate, SchemaModeDefinition):
                 assert len(to_validate.lists) == 3, "Must have 3 lists"
                 for parapsy_list in to_validate.lists:
@@ -27,29 +25,21 @@ class schemaLoader():
             raise
 
     def load_all_schemas(self) -> ParapsySchemaList:
-        """Load and validate the entire JSON schema"""
         with open(settings.PATH_TO_JSON, 'r') as f:
             data = json.load(f)
 
-        # Unpack the dict into ParapsySchemaList
         schema_list = ParapsySchemaList(**data['schemas'])
-
-        # Validate and return
         return self._validate(schema_list)
 
     def load_schema(self, parapsy_mode: parapsyMode) -> SchemaModeDefinition:
-        """Load and validate the entire JSON schema"""
         with open(settings.PATH_TO_JSON, 'r') as f:
             data = json.load(f)
             data_selection = next((mode for mode in data['schemas'] if mode['name'] == parapsy_mode.value))
 
-        # Unpack the dict into ParapsySchemaList
         data_selection = SchemaModeDefinition(**data_selection)
-        # Validate and return
         return self._validate(data_selection)
     
 def print_schema(schema_list: ParapsySchemaList):
-    """Example: Navigate the tree with full type safety"""
 
     for schema in schema_list.schemas:
         print(f"Mode: {schema.noun}")

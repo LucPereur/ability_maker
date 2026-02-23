@@ -21,7 +21,7 @@ class SchemaItem(BaseModel):
     item_value: int = Field(ge=0, le=5)
     item_description: str
     item_description_alt: Optional[str] = None
-
+    quantitative_effect: Optional[str] = None
 
 class SchemaSublist(BaseModel):
     """Branch node: Contains 6 items"""

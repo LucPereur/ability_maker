@@ -73,5 +73,6 @@ class compositionItem(BaseModel):
 
 class abilityComposition(BaseModel):
     """Final ability composition with selected items"""
+    ability_name: Optional[str] = None
     parapsy_mode: parapsyMode
     composition: list[compositionItem] = Field(default_factory=list)

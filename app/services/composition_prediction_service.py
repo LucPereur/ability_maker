@@ -3,12 +3,12 @@ from tqdm import tqdm
 
 from app.api.models import parapsyMode, abilityDescription, abilityComposition, SchemaItem
 from app.core.schema_loader import schemaLoader
-from app.utils.prompt_generation import promptGenerator
+from app.utils.decomposition_prompt_generation import decompositionPromptGenerator
 from app.chains.composition_chain import get_chain
 from app.chat_model.get_model import model
 from app.utils.print_composition import print_composition
 
-class predictionService:
+class compositionPredictionService:
     def __init__(self, chat_model: _ConfigurableModel, parapsy_mode: parapsyMode):
         self.chat_model = chat_model
         self.parapsy_mode = parapsy_mode
@@ -16,7 +16,7 @@ class predictionService:
     
     def predict(self, ability_input: abilityDescription) -> abilityComposition:
         schema = self.schema_loader.load_schema(self.parapsy_mode)
-        prompt_generator = promptGenerator(parapsy_mode=self.parapsy_mode, ability_input=ability_input, schema=schema)
+        prompt_generator = decompositionPromptGenerator(parapsy_mode=self.parapsy_mode, ability_input=ability_input, schema=schema)
         ability_composition = abilityComposition(parapsy_mode=self.parapsy_mode, composition = [])
         for composition_list in tqdm(prompt_generator.lazy_prompt_generator(), desc="lists study"):
             for composition_item in tqdm(composition_list, desc="sublists study"):
@@ -33,7 +33,7 @@ if __name__ == "__main__":
     ability_input=abilityDescription(
         ability_description="supprimer les souvenirs d'un individu"
     )
-    prediction_service = predictionService(
+    prediction_service = compositionPredictionService(
         chat_model=chat_model,
         parapsy_mode=parapsyMode.TELEPATHY
     )

@@ -1,6 +1,5 @@
 from app.core.config import settings
 from app.api.models import parapsyMode, abilityDescription, parapsyMode, SchemaModeDefinition, compositionItem
-from app.core.prompts import PROMPT_TEMPLATE
 from app.core.schema_loader import schemaLoader
 import json
 from pathlib import Path
@@ -51,8 +50,8 @@ class decompositionPromptGenerator():
                     prompt_terms[f'item_description_{item_index}'] = item.item_description
                 
                 composition_item = compositionItem()
-                composition_item.update(schema_sublist=parapsy_sublist)
-                composition_item.list_name = parapsy_list.list_name
+                composition_item.sublist = parapsy_sublist
+                composition_item.list = parapsy_list
                 composition_item.prompt_terms = prompt_terms
 
                 prompt_terms_iterator.append(composition_item)

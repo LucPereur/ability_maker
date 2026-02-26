@@ -2,63 +2,63 @@
 0;mode;télépathie;Discipline permettant de détecter les esprits, d'accéder à certains de leurs sous-systèmes et d'effectuer des actions sur ces derniers. De la même manière qu'un individu peut agir sur ses propres pensées, son corps, ses souvenirs, etc, le télépathe a un contrôle plus profond et qui peut s'étendre à d'autres esprits que le sien;;
 1;list;Détection;Détection de la conscience de créatures biologiques. La distance, à la fois littérale que figurative, le nombre des individus détectés, ainsi que la nature des esprits viennent influer sur la capacité du télépathe à les détecter;;
 2;sublist;Trace;Proximité figurative entre le télépathe et sa cible, comparable à l'importance de l'individu dans le paysage psychologique du télépathe;;
-3;0;non nécessaire;sous-liste non pertinente;;
-4;1;Personne proche;Connaissance intime;;
-5;2;Personne connue;Souvenir d’interactions passée, informations biométriques de base;;
-6;3;Personne aperçue;Personne connue de visu, ou de réputation;;
-7;4;Étranger;Aucune relation préalable;;
-8;5;À l’aveugle;Pas de certitude sur la présence de la personne;;
+3;0;Soi-même;Le Télépathe agit sur sa propre conscience.;;
+4;1;Personne proche;Le Télépathe connaît sa cible personnellement, il a en mémoire une large variété de souvenirs et de détails à propos de cette dernière. ;;
+5;2;Personne connue;Le Télépathe connaît sa cible pour l’avoir côtoyée, sans avoir beaucoup d’informations sur sa personnalité ou sa vie.;;
+6;3;Personne aperçue;Le Télépathe n’a jamais directement interagit avec sa cible, ou très brièvement, mais dispose d’informations basiques à son propos (apparence, nom, etc.).;;
+7;4;Étranger;Le Télépathe n'a aucune information relative à sa cible, il sait seulement qu’elle existe.;;
+8;5;À l’aveugle;Le Télépathe détecte les consciences sans avoir besoin de savoir qu’elles sont présentes.;;
 9;sublist;Complexité;Proximité structurelle entre la conscience du parapsy et celle de sa cible, similarité entre le fonctionnement des deux types de pensées;;
-10;0;non nécessaire;sous-liste non pertinente;;
-11;1;Conscience proche;Esprit similaire à celui d’un être humain éveillé;;
-12;2;Conscience éloignée;Esprit conscient différent de celui d’un être humain (grands primates, non-humains conscients);;
-13;3;Conscience limitée;Esprit réduit, conscience non réfléchie (mammifères);;
-14;4;Conscience passive;Esprit supérieur (humain, grand primate) en état léthargique (sommeil, coma);;
-15;5;Conscience basique;Esprit très limité (animaux) ou esprit réduit (mammifères) en état léthargique (sommeil, coma);;
+10;0;Conscience propre;Le Télépathe agit sur sa propre conscience.;Le Télépathe agit sur sa propre conscience.;
+11;1;Conscience proche;Le Télépathe détecte uniquement les consciences similaires à la sienne, soit des individus de la même espèce.;Le Télépathe détecte uniquement les consciences éveillées et non-dissimulées.;
+12;2;Conscience éloignée;Le Télépathe peut aussi détecter des consciences réfléchies légèrement éloignées (grands primates, non-humains évolués, individus aux conditions psychologiques majeures, etc.).;Le Télépathe détecte aussi les consciences dissimulées;
+13;3;Conscience limitée;Le Télépathe peut aussi détecter des esprits animaux supérieurs (grands mammifères, pieuvres, etc.).;Le Télépathe détecte aussi les consciences en sommeil léger;
+14;4;Conscience étroite;Le Télépathe peut aussi détecter des esprits animaux inférieurs (tous mammifères, reptiles, etc.).;Le Télépathe détecte aussi les consciences en sommeil profond;
+15;5;Conscience basique;Le Télépathe peut détecter n’importe quel entité qui dispose d’un système nerveux (insectes, mollusques, etc.).;Le Télépathe détecte aussi les consciences léthargiques;
 16;sublist;Multiplicité;Quantité des cibles, reflète la nécessité de diviser son attention pour détecter plusieurs esprits;;
-17;0;non nécessaire;sous-liste non pertinente;;
-18;1;Cible unique;1 cible;;
-19;2;Paire;2 cibles;;
-20;3;Groupe;Max INTELLIGENCE cibles;;
-21;4;Foule;Max 5 x INTELLIGENCE cibles;;
-22;5;Population;Sans limite de nombre;;
+17;0;Cible interne;Le Télépathe agit sur sa propre conscience.;;
+18;1;Cible unique;Le Télépathe détecte un maximum de 1 conscience.;;
+19;2;Paire;Le Télépathe détecte un maximum de 2 consciences.;;
+20;3;Groupe;Le Télépathe détecte un maximum de consciences égal à sa valeur d’INTELLIGENCE.;;
+21;4;Foule;Le Télépathe détecte un maximum de consciences égal à 5 fois sa valeur d’INTELLIGENCE.;;
+22;5;Population;Le Télépathe détecte des consciences sans limite de nombre.;;
 23;sublist;Distance;proximité sensorielle ou littérale entre le télépathe et sa cible, vient représenter l'importance immédiate de la cible dans le paysage physique du télépathe;;
-24;0;non nécessaire;sous-liste non pertinente;;
-25;1;Dialogue établi;Attention directe réciproque entre la cible et le parapsy;Contact physique;
-26;2;Individu perçu;Attention indirecte ou unilatérale entre la cible et le parapsy;Dans un rayon de VOLONTÉ mètres;
-27;3;Distance limitée;Attention indirecte et unilatérale entre la cible et le parapsy;Dans un rayon de 10 x VOLONTÉ mètres;
-28;4;Longue distance;Ignorance sensorielle réciproque entre la cible et le parapsy;Dans un rayon de VOLONTÉ kilomètres;
-29;5;Distance illimitée;Ignorance existentielle réciproque entre la cible et le parapsy;Sans limite de distance;
+24;0;Distance nulle;Le Télépathe agit sur sa propre conscience.;Le Télépathe agit sur sa propre conscience.;
+25;1;Dialogue établi;Le Télépathe détecte la conscience de sa cible si les deux dirigent leur attention l’un vers l’autre (réciproque directe) (contact visuel réciproque direct, discussion non-téléphonique, etc.).;Le Télépathe a besoin d’un contact physique directe pour détecter la conscience de sa cible.;
+26;2;Individu perçu;Le Télépathe détecte la conscience de sa cible si elle lui prête attention (réciproque indirecte) OU s’il la perçoit directement (unilatérale directe).;Le Télépathe a besoin d’être dans un rayon de VOLONTÉ mètres autour de sa cible pour la détecter.;
+27;3;Distance limitée;Le Télépathe a seulement besoin de percevoir sa cible pour détecter sa conscience (unilatérale indirecte).;Le Télépathe a besoin d’être dans un rayon de 10 fois VOLONTÉ mètres autour de sa cible pour la détecter.;
+28;4;Longue distance;Le Télépathe a seulement besoin d’avoir la certitude de la présence de sa cible, pas de la percevoir (ignorance sensorielle).;Le Télépathe a besoin d’être dans un rayon de VOLONTÉ kilomètres autour de sa cible pour la détecter.;
+29;5;Distance illimitée;Le Télépathe peut détecter sa cible sans avoir besoin de savoir qu’elle est présente et sans la percevoir (ignorance sensorielle).;Le Télépathe détecte des consciences sans limite de distance.;
 30;list;Accès;Accès aux différents niveaux de l'arborescence des systèmes nerveux. Certains composants son plus proches de la surface de l'esprit, tandis que d'autres sont enfouis profondément;;
 31;sublist;Système Nerveux Sensoriel;Partie du système nerveux responsable de la détection, transmission et traitement initial des informations sensorielles provenant de l'environnement externe et interne;;
-32;0;non nécessaire;sous-liste non pertinente;;
-33;1;Sens primaire conscient ;Vue active, sons entendus;;Système Nerveux pour action impliquant la Caractéristique
-34;2;Sens secondaire conscient;Toucher, goût, odorat, proprioception;;Système Nerveux
-35;3;Imagination sensorielle;Images mentales, sons imaginés;;Malus de Qualité associée la Caractéristique
-36;4;Immersion sensorielle;Contrôle sensoriel sur le sens de la réalité;;Bonus de Qualité associée la Caractéristique
-37;5;Perception subliminale;Stimuli sous le seuil de conscience;;Valeur de la Caractéristique
-38;sublist;Système Limbique;Partie du système nerveux jouant un rôle central dans les émotions, la mémoire, la motivation et les comportements instinctifs;;
-39;0;non nécessaire;sous-liste non pertinente;;
-40;1;Émotions de surface;Ce que la cible ressent consciemment maintenant;;Système Nerveux pour action impliquant la Caractéristique
-41;2;Émotions primaires;Peur, joie, colère, tristesse;;Système Nerveux
-42;3;Émotions complexes;Jalousie, nostalgie, fierté, honte;;Malus de Qualité associée la Caractéristique
-43;4;États affectifs profonds;Attachement, trauma, désir inconscient;;Bonus de Qualité associée la Caractéristique
-44;5;Architecture émotionnelle;Tempérament, patterns affectifs fondamentaux;;Valeur de la Caractéristique
-45;sublist;Système Cognitif;Partie du système nerveux permettant l'acquisition, le traitement, le stockage et l'utilisation de l'information pour la pensée abstraite, le raisonnement et l'adaptation intelligente;;
-46;0;non nécessaire;sous-liste non pertinente;;
-47;1;Pensées destinées;Ce que la cible veut communiquer;;Système Nerveux pour action impliquant la Caractéristique
-48;2;Dialogue intérieur;Pensées verbales conscientes;;Système Nerveux
-49;3;Mémoire récente;Souvenirs des dernières heures/jours;;Malus de Qualité associée la Caractéristique
-50;4;Mémoire profonde;Souvenirs anciens, refoulés, fragmentés;;Bonus de Qualité associée la Caractéristique
-51;5;Logique inconscients;Logique sous-jacente, biais, conditionnements;;Valeur de la Caractéristique
+32;0;Conscience de surface;Le Télépathe a seulement accès à la surface de l’esprit de sa cible, cela ne permet que de vérifier qu’elle existe.;;
+33;1;Système périphérique;Le Télépathe accède aux récepteurs sensoriels et à leur fonctionnement, permettant d’agir sur la conversion de stimuli extérieurs en signaux nerveux.;;Système Nerveux pour action impliquant la Caractéristique
+34;2;Circuits réflexes;Le Télépathe peut agir sur les réflexes musculaires immédiats, donnant accès aux sens de la proprioception de l’équilibre.;;Système Nerveux
+35;3;Cortex sensoriel;Le Télépathe peut influer sur la compréhension immédiate des informations perçues, l’organisation des stimuli permettant l’identification de motifs simples.;;Malus de Qualité associée la Caractéristique
+36;4;Immersion multisensorielle;Le Télépathe a accès aux mécanismes d’intégration des informations sensorielles, et peut agir sur les déductions immédiates complexes. Cela englobe partiellement le sens de la réalité.;;Bonus de Qualité associée la Caractéristique
+37;5;Conscience du réel;Le Télépathe a accès à la totalité des mécanismes permettant à la cible de percevoir le monde réel.;;Valeur de la Caractéristique
+38;sublist;Système Limbique;Partie du système nerveux jouant un rôle central dans les émotions, la motivation et les comportements instinctifs;;
+39;0;Conscience de surface;Le Télépathe a seulement accès à la surface de l’esprit de sa cible, cela ne permet que de vérifier qu’elle existe.;;
+40;1;Émotions primaires;Le Télépathe accède aux systèmes responsables des réponses basiques aux stimuli comme la peur, la joie ou la colère.;;Système Nerveux pour action impliquant la Caractéristique
+41;2;Émotions complexes;Le Télépathe accède aux systèmes responsables des réponses complexes aux stimuli comme la jalousie, tristesse, fierté, honte, etc.;;Système Nerveux
+42;3;Traitement motivationnel;Le Télépathe accède au centre de la récompense, qui commande les processus décisionnels;;Malus de Qualité associée la Caractéristique
+43;4;Structure sociale;Le Télépathe peut agir sur la compréhension et l’expression d’affects sociaux complexes.;;Bonus de Qualité associée la Caractéristique
+44;5;Architecture émotionnelle;Le Télépathe peut agir sur l’identité émotionnelle et sociale de sa cible, tous les paramètres psychologiques issus de son expérience.;;Valeur de la Caractéristique
+45;sublist;Système Cognitif;Partie du système nerveux permettant le traitement, le stockage et l'utilisation de l'information pour la pensée abstraite, le raisonnement et l'adaptation intelligente;;
+46;0;Conscience de surface;Le Télépathe a seulement accès à la surface de l’esprit de sa cible, cela ne permet que de vérifier qu’elle existe.;Le Télépathe a seulement accès à la surface de l’esprit de sa cible, cela ne permet que de vérifier qu’elle existe.;
+47;1;Pensées destinées;Le Télépathe n’a accès qu’aux pensées que sa cible est délibérément en train de lui adresser.;Le Télépathe n’a accès qu’aux pensées que sa cible est délibérément en train de lui adresser.;Système Nerveux pour action impliquant la Caractéristique
+48;2;Cognition immédiate;Le Télépathe peut accéder au fil de pensées de sa cible, son attention instantanée.;Le Télépathe a accès à la permanence de l’objet.;Système Nerveux
+49;3;Raisonnement basique;Le Télépathe atteint les mécanismes spontanés du langage et de la planification.;Le Télépathe a accès aux souvenirs des dernières heures la cible.;Malus de Qualité associée la Caractéristique
+50;4;Fonction profonde;Le Télépathe atteint les mécanismes conscients et calculés du langage et de la planification.;Le Télépathe a accès à tous les souvenirs de la cible auxquels elle peut accéder elle-même.;Bonus de Qualité associée la Caractéristique
+51;5;Logique inconsciente;Le Télépathe a accès à la totalité des fonctions de raisonnement de la cible, y compris ses biais cognitifs et sa prise de décision.;Le Télépathe a accès à la mémoire corporelle et aux souvenirs fragmentés, refoulés.;Valeur de la Caractéristique
 52;sublist;Système Nerveux Moteur;Partie du système nerveux responsable de la planification, du contrôle et de l'exécution des mouvements volontaires et involontaires par l'activation des muscles squelettiques, lisses et cardiaques;;
-53;0;non nécessaire;sous-liste non pertinente;;
+53;0;Conscience de surface;Le Télépathe a seulement accès à la surface de l’esprit de sa cible, cela ne permet que de vérifier qu’elle existe.;;
 54;1;Intention motrice consciente;Mouvements que la cible planifie;;Système Nerveux pour action impliquant la Caractéristique
 55;2;Grands muscles volontaires;Bras, jambes, torse;;Système Nerveux
 56;3;Petits muscles volontaires;Doigts, yeux, bouche;;Malus de Qualité associée la Caractéristique
 57;4;Muscles semi-autonomes;Respiration, déglutition;;Bonus de Qualité associée la Caractéristique
 58;5;Muscles autonomes;Cœur, digestion, pupilles;;Valeur de la Caractéristique
-59;sublist;Système Ethéré;Le système paraphysique distinct du système nerveux, comparable à l'âme, contenant des informations sur l'identité d'un individu au sens métaphysique, génétique et historique, qui se manifeste sous la forme de deux ailes nervurées invisibles à l'oeil nu et dont l'apparence, unique telle l'empreinte digitale, contient toutes les informations mentionnées précédemment;;
+59;sublist;Système Ethéré;Le système paraphysique distinct du système nerveux, comparable à l'âme, contenant des informations sur l'identité d'un individu au sens métaphysique, génétique et historique, qui se manifeste sous la forme de deux ailes nervurées invisibles à l'oeil nu et dont l'apparence, unique telle l'empreinte digitale. Cette sous-liste est pertinente uniquement si l'Ether, les informations génétiques ou les capacités surnaturelles de la cible sont explicitement mentionnées.;;
 60;0;non nécessaire;sous-liste non pertinente;;
 61;1;Information identitaire;Sans information spécifique, image relative;pour comparaison;
 62;2;Couverture spatiale;Image de la taille des ailes;Accès aux informations parapsychiques (alpha, beta, gamma);
@@ -66,27 +66,27 @@
 64;4;Extrémités individuelles;Image précise des contours des arborescences;Accès à la mémoire génétique (historique des aïeux, états symbiotiques);
 65;5;Structure génétique;Image précise de l’ensemble des ailes;Accès aux noeuds individuels, pour les modifications complexes;
 66;list;Action;Nature et intensité de l'action entreprise par le télépathe. L'intensité peut être l'ampleur des changements opérés par le télépathe ainsi que leur durabilité dans le temps;;
-67;sublist;Analyse;Exploration passive et indetectable du système visé permettant uniquement l'acquisition d'informations;;
+67;sublist;Analyse;Exploration passive et indetectable du système visé permettant uniquement l'acquisition d'informations. Toute action impliquant une connaissance du contenu ou de l'état du système visé dont le télépathe ne dispose pas en premier lieu doit avoir un composant d'Analyse.;;
 68;0;non nécessaire;sous-liste non pertinente;;
 69;1;Constat binaire;Présent/absent, vrai/faux, actif/inactif;;
 70;2;Observation d'état;Intensité, qualité générale;;
 71;3;Observation de contenu;Détails spécifiques, nuances;;
 72;4;Cartographie structurelle;Relations entre éléments, patterns;;
 73;5;Analyse archéologique;Reconstruction de l'historique, origines;;
-74;sublist;Influence;Modification ou insertion d'information dans le système visé, sans observation aucune (toute information nécessaire doit déjà être en possession du télépathe) et sans réduction qualitative ou quantitative de l'efficacité de ses fonctions;;
+74;sublist;Influence;Modification ou insertion d'information dans le système visé, sans observation aucune (toute information nécessaire doit déjà être en possession du télépathe) et sans réduction qualitative ou quantitative de l'efficacité de ses fonctions. Toute action agressive et délétère n'est PAS une influence.;;
 75;0;non nécessaire;sous-liste non pertinente;;
 76;1;Suggestion simple;Idée unique, claire, non-contraignante;;
 77;2;Activation;Déclenchement basique pouvant impliquer un effort momentané;;
 78;3;Suggestion complexe;Idée nuancée, conditionnelle;;
 79;4;Occulter;Rendre une information temporairement inaccessible;;
-80;5;Modification durable;Implanter un changement;;
-81;sublist;Attaque;Perturbation ou destruction de fonctions dans le système visé, sans observation aucune (toute information nécessaire doit déjà être en possession du télépathe);;
+80;5;Modification;Implanter un changement structurel durable. Ne comprend pas toute forme de suppression ou destruction.;;
+81;sublist;Attaque;Perturbation ou destruction de fonctions dans le système visé, sans observation aucune (toute information nécessaire doit déjà être en possession du télépathe). Sont inclues toutes les actions agressives et délètères.;;
 82;0;non nécessaire;sous-liste non pertinente;;
 83;1;Distraction;Briser la concentration, créer du bruit;;
 84;2;Engourdir;Ralentir un processus;;
 85;3;Empêcher;Bloquer une action/pensée spécifique;;
 86;4;Surcharge;Saturer un système;;
-87;5;Détruire;Dommages permanents;;
+87;5;Détruire;Dommages permanents, suppression définitive d'informations ou amoindrissement d'une fonction;;
 88;sublist;Protection;Préservation ou augmentation d'une fonction du système visé, sans observation aucune (toute information nécessaire doit déjà être en possession du télépathe);;
 89;0;non nécessaire;sous-liste non pertinente;;
 90;1;Isoler;Créer une barrière contre influences externes;;

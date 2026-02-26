@@ -3,7 +3,6 @@ from app.core.prompts import TITLE_PROMPT_TEMPLATE
 from langchain.chat_models.base import _ConfigurableModel
 from langchain_core.runnables import RunnableSerializable
 from langchain_core.output_parsers import StrOutputParser
-from langchain_core.exceptions import OutputParserException
 
 def get_chain(llm_model: _ConfigurableModel) -> RunnableSerializable:
     return ( TITLE_PROMPT_TEMPLATE | llm_model | StrOutputParser() )

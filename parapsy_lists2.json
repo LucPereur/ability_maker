@@ -323,7 +323,7 @@
                                     "item_value": 1
                                 },
                                 {
-                                    "item_name": "Dialogue intérieur",
+                                    "item_name": "Monologue intérieur",
                                     "item_description": "Pensées verbales conscientes",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": "Système Nerveux",
@@ -344,7 +344,7 @@
                                     "item_value": 4
                                 },
                                 {
-                                    "item_name": "Logique inconscients",
+                                    "item_name": "Logique inconsciente",
                                     "item_description": "Logique sous-jacente, biais, conditionnements",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": "Valeur de la Caractéristique",
@@ -402,7 +402,7 @@
                         },
                         {
                             "sublist_name": "Système Ethéré",
-                            "sublist_description": "Le système paraphysique distinct du système nerveux, comparable à l'âme, contenant des informations sur l'identité d'un individu au sens métaphysique, génétique et historique, qui se manifeste sous la forme de deux ailes nervurées invisibles à l'oeil nu et dont l'apparence, unique telle l'empreinte digitale, contient toutes les informations mentionnées précédemment",
+                            "sublist_description": "Le système paraphysique distinct du système nerveux, comparable à l'âme, contenant des informations sur l'identité d'un individu au sens métaphysique, génétique et historique, qui se manifeste sous la forme de deux ailes nervurées invisibles à l'oeil nu et dont l'apparence, unique telle l'empreinte digitale. Cette sous-liste est pertinente uniquement si l'Ether, les informations génétiques ou les capacités surnaturelles de la cible sont explicitement mentionnées.",
                             "items": [
                                 {
                                     "item_name": "non nécessaire",
@@ -456,7 +456,7 @@
                     "sublists": [
                         {
                             "sublist_name": "Analyse",
-                            "sublist_description": "Exploration passive et indetectable du système visé permettant uniquement l'acquisition d'informations",
+                            "sublist_description": "Exploration passive et indetectable du système visé permettant uniquement l'acquisition d'informations. Toute action impliquant une connaissance du contenu ou de l'état du système visé dont le télépathe ne dispose pas en premier lieu doit avoir un composant d'Analyse.",
                             "items": [
                                 {
                                     "item_name": "non nécessaire",
@@ -504,7 +504,7 @@
                         },
                         {
                             "sublist_name": "Influence",
-                            "sublist_description": "Modification ou insertion d'information dans le système visé, sans observation aucune (toute information nécessaire doit déjà être en possession du télépathe) et sans réduction qualitative ou quantitative de l'efficacité de ses fonctions",
+                            "sublist_description": "Modification ou insertion d'information dans le système visé, sans observation aucune (toute information nécessaire doit déjà être en possession du télépathe) et sans réduction qualitative ou quantitative de l'efficacité de ses fonctions. Toute action agressive et délétère n'est PAS une influence.",
                             "items": [
                                 {
                                     "item_name": "non nécessaire",
@@ -542,8 +542,8 @@
                                     "item_value": 4
                                 },
                                 {
-                                    "item_name": "Modification durable",
-                                    "item_description": "Implanter un changement",
+                                    "item_name": "Modification",
+                                    "item_description": "Implanter un changement structurel durable. Ne comprend pas toute forme de suppression ou destruction.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 5
@@ -552,7 +552,7 @@
                         },
                         {
                             "sublist_name": "Attaque",
-                            "sublist_description": "Perturbation ou destruction de fonctions dans le système visé, sans observation aucune (toute information nécessaire doit déjà être en possession du télépathe)",
+                            "sublist_description": "Perturbation ou destruction de fonctions dans le système visé, sans observation aucune (toute information nécessaire doit déjà être en possession du télépathe). Sont inclues toutes les actions agressives et délètères.",
                             "items": [
                                 {
                                     "item_name": "non nécessaire",
@@ -591,7 +591,7 @@
                                 },
                                 {
                                     "item_name": "Détruire",
-                                    "item_description": "Dommages permanents",
+                                    "item_description": "Dommages permanents, suppression définitive d'informations ou amoindrissement d'une fonction",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 5

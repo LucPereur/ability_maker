@@ -22,7 +22,7 @@ class compositionPredictionService:
             for composition_item in tqdm(composition_list, desc="sublists study"):
                 chain = get_chain(llm_model=self.chat_model)
                 score = chain.invoke(composition_item.prompt_terms)
-                item = next((item for item in composition_item.sublist_items if item.item_value == score), None)
+                item = next((item for item in composition_item.sublist.items if item.item_value == score), None)
                 composition_item.sublist_selection = item
                 ability_composition.composition.append(composition_item)
 
@@ -38,5 +38,5 @@ if __name__ == "__main__":
         parapsy_mode=parapsyMode.TELEPATHY
     )
     decomposition_prediction = prediction_service.predict(ability_input=ability_input)
-    print_composition(decomposition_prediction)
+    print(decomposition_prediction.composition_summary())
     

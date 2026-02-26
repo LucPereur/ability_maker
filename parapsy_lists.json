@@ -1,7 +1,7 @@
 {
-    "schemas":[
+    "schemas": [
         {
-            "name":"telepathy",
+            "name": "telepathy",
             "noun": "télépathie",
             "adjective": "télépathique",
             "general_description": "Discipline permettant de détecter les esprits, d'accéder à certains de leurs sous-systèmes et d'effectuer des actions sur ces derniers. De la même manière qu'un individu peut agir sur ses propres pensées, son corps, ses souvenirs, etc, le télépathe a un contrôle plus profond et qui peut s'étendre à d'autres esprits que le sien",
@@ -222,36 +222,36 @@
                                 {
                                     "item_name": "Sens primaire conscient ",
                                     "item_description": "Vue active, sons entendus",
-                                    "item_description_alt": "Système Nerveux pour action impliquant la Caractéristique",
-                                    "item_quantitative_effect": null,
+                                    "item_description_alt": null,
+                                    "item_quantitative_effect": "Système Nerveux pour action impliquant la Caractéristique",
                                     "item_value": 1
                                 },
                                 {
                                     "item_name": "Sens secondaire conscient",
                                     "item_description": "Toucher, goût, odorat, proprioception",
-                                    "item_description_alt": "Système Nerveux",
-                                    "item_quantitative_effect": null,
+                                    "item_description_alt": null,
+                                    "item_quantitative_effect": "Système Nerveux",
                                     "item_value": 2
                                 },
                                 {
                                     "item_name": "Imagination sensorielle",
                                     "item_description": "Images mentales, sons imaginés",
-                                    "item_description_alt": "Malus de Qualité associée la Caractéristique",
-                                    "item_quantitative_effect": null,
+                                    "item_description_alt": null,
+                                    "item_quantitative_effect": "Malus de Qualité associée la Caractéristique",
                                     "item_value": 3
                                 },
                                 {
                                     "item_name": "Immersion sensorielle",
                                     "item_description": "Contrôle sensoriel sur le sens de la réalité",
-                                    "item_description_alt": "Bonus de Qualité associée la Caractéristique",
-                                    "item_quantitative_effect": null,
+                                    "item_description_alt": null,
+                                    "item_quantitative_effect": "Bonus de Qualité associée la Caractéristique",
                                     "item_value": 4
                                 },
                                 {
                                     "item_name": "Perception subliminale",
                                     "item_description": "Stimuli sous le seuil de conscience",
-                                    "item_description_alt": "Valeur de la Caractéristique",
-                                    "item_quantitative_effect": null,
+                                    "item_description_alt": null,
+                                    "item_quantitative_effect": "Valeur de la Caractéristique",
                                     "item_value": 5
                                 }
                             ]
@@ -270,36 +270,36 @@
                                 {
                                     "item_name": "Émotions de surface",
                                     "item_description": "Ce que la cible ressent consciemment maintenant",
-                                    "item_description_alt": "Système Nerveux pour action impliquant la Caractéristique",
-                                    "item_quantitative_effect": null,
+                                    "item_description_alt": null,
+                                    "item_quantitative_effect": "Système Nerveux pour action impliquant la Caractéristique",
                                     "item_value": 1
                                 },
                                 {
                                     "item_name": "Émotions primaires",
                                     "item_description": "Peur, joie, colère, tristesse",
-                                    "item_description_alt": "Système Nerveux",
-                                    "item_quantitative_effect": null,
+                                    "item_description_alt": null,
+                                    "item_quantitative_effect": "Système Nerveux",
                                     "item_value": 2
                                 },
                                 {
                                     "item_name": "Émotions complexes",
                                     "item_description": "Jalousie, nostalgie, fierté, honte",
-                                    "item_description_alt": "Malus de Qualité associée la Caractéristique",
-                                    "item_quantitative_effect": null,
+                                    "item_description_alt": null,
+                                    "item_quantitative_effect": "Malus de Qualité associée la Caractéristique",
                                     "item_value": 3
                                 },
                                 {
                                     "item_name": "États affectifs profonds",
                                     "item_description": "Attachement, trauma, désir inconscient",
-                                    "item_description_alt": "Bonus de Qualité associée la Caractéristique",
-                                    "item_quantitative_effect": null,
+                                    "item_description_alt": null,
+                                    "item_quantitative_effect": "Bonus de Qualité associée la Caractéristique",
                                     "item_value": 4
                                 },
                                 {
                                     "item_name": "Architecture émotionnelle",
                                     "item_description": "Tempérament, patterns affectifs fondamentaux",
-                                    "item_description_alt": "Valeur de la Caractéristique",
-                                    "item_quantitative_effect": null,
+                                    "item_description_alt": null,
+                                    "item_quantitative_effect": "Valeur de la Caractéristique",
                                     "item_value": 5
                                 }
                             ]
@@ -318,36 +318,36 @@
                                 {
                                     "item_name": "Pensées destinées",
                                     "item_description": "Ce que la cible veut communiquer",
-                                    "item_description_alt": "Système Nerveux pour action impliquant la Caractéristique",
-                                    "item_quantitative_effect": null,
+                                    "item_description_alt": null,
+                                    "item_quantitative_effect": "Système Nerveux pour action impliquant la Caractéristique",
                                     "item_value": 1
                                 },
                                 {
-                                    "item_name": "Dialogue intérieur",
+                                    "item_name": "Monologue intérieur",
                                     "item_description": "Pensées verbales conscientes",
-                                    "item_description_alt": "Système Nerveux",
-                                    "item_quantitative_effect": null,
+                                    "item_description_alt": null,
+                                    "item_quantitative_effect": "Système Nerveux",
                                     "item_value": 2
                                 },
                                 {
                                     "item_name": "Mémoire récente",
                                     "item_description": "Souvenirs des dernières heures/jours",
-                                    "item_description_alt": "Malus de Qualité associée la Caractéristique",
-                                    "item_quantitative_effect": null,
+                                    "item_description_alt": null,
+                                    "item_quantitative_effect": "Malus de Qualité associée la Caractéristique",
                                     "item_value": 3
                                 },
                                 {
                                     "item_name": "Mémoire profonde",
                                     "item_description": "Souvenirs anciens, refoulés, fragmentés",
-                                    "item_description_alt": "Bonus de Qualité associée la Caractéristique",
-                                    "item_quantitative_effect": null,
+                                    "item_description_alt": null,
+                                    "item_quantitative_effect": "Bonus de Qualité associée la Caractéristique",
                                     "item_value": 4
                                 },
                                 {
-                                    "item_name": "Logique inconscients",
+                                    "item_name": "Logique inconsciente",
                                     "item_description": "Logique sous-jacente, biais, conditionnements",
-                                    "item_description_alt": "Valeur de la Caractéristique",
-                                    "item_quantitative_effect": null,
+                                    "item_description_alt": null,
+                                    "item_quantitative_effect": "Valeur de la Caractéristique",
                                     "item_value": 5
                                 }
                             ]
@@ -366,43 +366,43 @@
                                 {
                                     "item_name": "Intention motrice consciente",
                                     "item_description": "Mouvements que la cible planifie",
-                                    "item_description_alt": "Système Nerveux pour action impliquant la Caractéristique",
-                                    "item_quantitative_effect": null,
+                                    "item_description_alt": null,
+                                    "item_quantitative_effect": "Système Nerveux pour action impliquant la Caractéristique",
                                     "item_value": 1
                                 },
                                 {
                                     "item_name": "Grands muscles volontaires",
                                     "item_description": "Bras, jambes, torse",
-                                    "item_description_alt": "Système Nerveux",
-                                    "item_quantitative_effect": null,
+                                    "item_description_alt": null,
+                                    "item_quantitative_effect": "Système Nerveux",
                                     "item_value": 2
                                 },
                                 {
                                     "item_name": "Petits muscles volontaires",
                                     "item_description": "Doigts, yeux, bouche",
-                                    "item_description_alt": "Malus de Qualité associée la Caractéristique",
-                                    "item_quantitative_effect": null,
+                                    "item_description_alt": null,
+                                    "item_quantitative_effect": "Malus de Qualité associée la Caractéristique",
                                     "item_value": 3
                                 },
                                 {
                                     "item_name": "Muscles semi-autonomes",
                                     "item_description": "Respiration, déglutition",
-                                    "item_description_alt": "Bonus de Qualité associée la Caractéristique",
-                                    "item_quantitative_effect": null,
+                                    "item_description_alt": null,
+                                    "item_quantitative_effect": "Bonus de Qualité associée la Caractéristique",
                                     "item_value": 4
                                 },
                                 {
                                     "item_name": "Muscles autonomes",
                                     "item_description": "Cœur, digestion, pupilles",
-                                    "item_description_alt": "Valeur de la Caractéristique",
-                                    "item_quantitative_effect": null,
+                                    "item_description_alt": null,
+                                    "item_quantitative_effect": "Valeur de la Caractéristique",
                                     "item_value": 5
                                 }
                             ]
                         },
                         {
                             "sublist_name": "Système Ethéré",
-                            "sublist_description": "Le système paraphysique distinct du système nerveux, comparable à l'âme, contenant des informations sur l'identité d'un individu au sens métaphysique, génétique et historique, qui se manifeste sous la forme de deux ailes nervurées invisibles à l'oeil nu et dont l'apparence, unique telle l'empreinte digitale, contient toutes les informations mentionnées précédemment",
+                            "sublist_description": "Le système paraphysique distinct du système nerveux, comparable à l'âme, contenant des informations sur l'identité d'un individu au sens métaphysique, génétique et historique, qui se manifeste sous la forme de deux ailes nervurées invisibles à l'oeil nu et dont l'apparence, unique telle l'empreinte digitale. Cette sous-liste est pertinente uniquement si l'Ether, les informations génétiques ou les capacités surnaturelles de la cible sont explicitement mentionnées.",
                             "items": [
                                 {
                                     "item_name": "non nécessaire",
@@ -456,7 +456,7 @@
                     "sublists": [
                         {
                             "sublist_name": "Analyse",
-                            "sublist_description": "Exploration passive et indetectable du système visé permettant uniquement l'acquisition d'informations",
+                            "sublist_description": "Exploration passive et indetectable du système visé permettant uniquement l'acquisition d'informations. Toute action impliquant une connaissance du contenu ou de l'état du système visé dont le télépathe ne dispose pas en premier lieu doit avoir un composant d'Analyse.",
                             "items": [
                                 {
                                     "item_name": "non nécessaire",
@@ -504,7 +504,7 @@
                         },
                         {
                             "sublist_name": "Influence",
-                            "sublist_description": "Modification ou insertion d'information dans le système visé, sans observation aucune (toute information nécessaire doit déjà être en possession du télépathe) et sans réduction qualitative ou quantitative de l'efficacité de ses fonctions",
+                            "sublist_description": "Modification ou insertion d'information dans le système visé, sans observation aucune (toute information nécessaire doit déjà être en possession du télépathe) et sans réduction qualitative ou quantitative de l'efficacité de ses fonctions. Toute action agressive et délétère n'est PAS une influence.",
                             "items": [
                                 {
                                     "item_name": "non nécessaire",
@@ -542,8 +542,8 @@
                                     "item_value": 4
                                 },
                                 {
-                                    "item_name": "Modification durable",
-                                    "item_description": "Implanter un changement",
+                                    "item_name": "Modification",
+                                    "item_description": "Implanter un changement structurel durable. Ne comprend pas toute forme de suppression ou destruction.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 5
@@ -552,7 +552,7 @@
                         },
                         {
                             "sublist_name": "Attaque",
-                            "sublist_description": "Perturbation ou destruction de fonctions dans le système visé, sans observation aucune (toute information nécessaire doit déjà être en possession du télépathe)",
+                            "sublist_description": "Perturbation ou destruction de fonctions dans le système visé, sans observation aucune (toute information nécessaire doit déjà être en possession du télépathe). Sont inclues toutes les actions agressives et délètères.",
                             "items": [
                                 {
                                     "item_name": "non nécessaire",
@@ -591,7 +591,7 @@
                                 },
                                 {
                                     "item_name": "Détruire",
-                                    "item_description": "Dommages permanents",
+                                    "item_description": "Dommages permanents, suppression définitive d'informations ou amoindrissement d'une fonction",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 5
@@ -650,8 +650,8 @@
                 }
             ]
         },
-        {   
-            "name":"telekinesis",
+        {
+            "name": "telekinesis",
             "noun": "télékinésie",
             "adjective": "télékinétique",
             "general_description": "Discipline permettant d'explorer le monde physique par la pensée, de sélectionner des corps matériels et de leur appliquer des forces selon certains modes d'interaction. De la même manière qu'un individu peut bouger ses membres et donner une certaine qualité à ses geste, le télékinésiste peut étendre ce contrôle à son environnement",

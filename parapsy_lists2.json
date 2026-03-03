@@ -8,50 +8,50 @@
             "lists": [
                 {
                     "list_name": "Détection",
-                    "list_description": "Détection de la conscience de créatures biologiques. La distance, à la fois littérale que figurative, le nombre des individus détectés, ainsi que la nature des esprits viennent influer sur la capacité du télépathe à les détecter",
+                    "list_description": "Détection de la conscience de créatures biologiques. La distance, à la fois littérale que figurative, le nombre des individus détectés, ainsi que la nature des esprits viennent influer sur la capacité du télépathe à les détecter. Détecter un esprit de cette manière ne donne aucune information supplémentaire sur sa position géographique.",
                     "sublists": [
                         {
                             "sublist_name": "Trace",
                             "sublist_description": "Proximité figurative entre le télépathe et sa cible, comparable à l'importance de l'individu dans le paysage psychologique du télépathe",
                             "items": [
                                 {
-                                    "item_name": "non nécessaire",
-                                    "item_description": "sous-liste non pertinente",
+                                    "item_name": "Soi-même",
+                                    "item_description": "Le Télépathe agit sur sa propre conscience.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 0
                                 },
                                 {
                                     "item_name": "Personne proche",
-                                    "item_description": "Connaissance intime",
+                                    "item_description": "Le Télépathe connaît sa cible personnellement, il a en mémoire une large variété de souvenirs et de détails à propos de cette dernière. ",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 1
                                 },
                                 {
                                     "item_name": "Personne connue",
-                                    "item_description": "Souvenir d’interactions passée, informations biométriques de base",
+                                    "item_description": "Le Télépathe connaît sa cible pour l’avoir côtoyée, sans avoir beaucoup d’informations sur sa personnalité ou sa vie.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 2
                                 },
                                 {
                                     "item_name": "Personne aperçue",
-                                    "item_description": "Personne connue de visu, ou de réputation",
+                                    "item_description": "Le Télépathe n’a jamais directement interagit avec sa cible, ou très brièvement, mais dispose d’informations basiques à son propos (apparence, nom, etc.).",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 3
                                 },
                                 {
                                     "item_name": "Étranger",
-                                    "item_description": "Aucune relation préalable",
+                                    "item_description": "Le Télépathe n'a aucune information relative à sa cible, il sait seulement qu’elle existe.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 4
                                 },
                                 {
                                     "item_name": "À l’aveugle",
-                                    "item_description": "Pas de certitude sur la présence de la personne",
+                                    "item_description": "Le Télépathe détecte les consciences sans avoir besoin de savoir qu’elles sont présentes.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 5
@@ -63,44 +63,44 @@
                             "sublist_description": "Proximité structurelle entre la conscience du parapsy et celle de sa cible, similarité entre le fonctionnement des deux types de pensées",
                             "items": [
                                 {
-                                    "item_name": "non nécessaire",
-                                    "item_description": "sous-liste non pertinente",
-                                    "item_description_alt": null,
+                                    "item_name": "Conscience propre",
+                                    "item_description": "Le Télépathe agit sur sa propre conscience.",
+                                    "item_description_alt": "Le Télépathe agit sur sa propre conscience.",
                                     "item_quantitative_effect": null,
                                     "item_value": 0
                                 },
                                 {
                                     "item_name": "Conscience proche",
-                                    "item_description": "Esprit similaire à celui d’un être humain éveillé",
-                                    "item_description_alt": null,
+                                    "item_description": "Le Télépathe détecte uniquement les consciences similaires à la sienne, soit des individus de la même espèce.",
+                                    "item_description_alt": "Le Télépathe détecte uniquement les consciences éveillées et non-dissimulées.",
                                     "item_quantitative_effect": null,
                                     "item_value": 1
                                 },
                                 {
                                     "item_name": "Conscience éloignée",
-                                    "item_description": "Esprit conscient différent de celui d’un être humain (grands primates, non-humains conscients)",
-                                    "item_description_alt": null,
+                                    "item_description": "Le Télépathe peut aussi détecter des consciences réfléchies légèrement éloignées (grands primates, non-humains évolués, individus aux conditions psychologiques majeures, etc.).",
+                                    "item_description_alt": "Le Télépathe détecte aussi les consciences dissimulées",
                                     "item_quantitative_effect": null,
                                     "item_value": 2
                                 },
                                 {
                                     "item_name": "Conscience limitée",
-                                    "item_description": "Esprit réduit, conscience non réfléchie (mammifères)",
-                                    "item_description_alt": null,
+                                    "item_description": "Le Télépathe peut aussi détecter des esprits animaux supérieurs (grands mammifères, pieuvres, etc.).",
+                                    "item_description_alt": "Le Télépathe détecte aussi les consciences en sommeil léger",
                                     "item_quantitative_effect": null,
                                     "item_value": 3
                                 },
                                 {
-                                    "item_name": "Conscience passive",
-                                    "item_description": "Esprit supérieur (humain, grand primate) en état léthargique (sommeil, coma)",
-                                    "item_description_alt": null,
+                                    "item_name": "Conscience étroite",
+                                    "item_description": "Le Télépathe peut aussi détecter des esprits animaux inférieurs (tous mammifères, reptiles, etc.).",
+                                    "item_description_alt": "Le Télépathe détecte aussi les consciences en sommeil profond",
                                     "item_quantitative_effect": null,
                                     "item_value": 4
                                 },
                                 {
                                     "item_name": "Conscience basique",
-                                    "item_description": "Esprit très limité (animaux) ou esprit réduit (mammifères) en état léthargique (sommeil, coma)",
-                                    "item_description_alt": null,
+                                    "item_description": "Le Télépathe peut détecter n’importe quel entité qui dispose d’un système nerveux (insectes, mollusques, etc.).",
+                                    "item_description_alt": "Le Télépathe détecte aussi les consciences léthargiques",
                                     "item_quantitative_effect": null,
                                     "item_value": 5
                                 }
@@ -111,43 +111,43 @@
                             "sublist_description": "Quantité des cibles, reflète la nécessité de diviser son attention pour détecter plusieurs esprits",
                             "items": [
                                 {
-                                    "item_name": "non nécessaire",
-                                    "item_description": "sous-liste non pertinente",
+                                    "item_name": "Cible interne",
+                                    "item_description": "Le Télépathe agit sur sa propre conscience.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 0
                                 },
                                 {
                                     "item_name": "Cible unique",
-                                    "item_description": "1 cible",
+                                    "item_description": "Le Télépathe détecte un maximum de 1 conscience.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 1
                                 },
                                 {
                                     "item_name": "Paire",
-                                    "item_description": "2 cibles",
+                                    "item_description": "Le Télépathe détecte un maximum de 2 consciences.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 2
                                 },
                                 {
                                     "item_name": "Groupe",
-                                    "item_description": "Max INTELLIGENCE cibles",
+                                    "item_description": "Le Télépathe détecte un maximum de consciences égal à sa valeur d’INTELLIGENCE.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 3
                                 },
                                 {
                                     "item_name": "Foule",
-                                    "item_description": "Max 5 x INTELLIGENCE cibles",
+                                    "item_description": "Le Télépathe détecte un maximum de consciences égal à 5 fois sa valeur d’INTELLIGENCE.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 4
                                 },
                                 {
                                     "item_name": "Population",
-                                    "item_description": "Sans limite de nombre",
+                                    "item_description": "Le Télépathe détecte des consciences sans limite de nombre.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 5
@@ -159,44 +159,44 @@
                             "sublist_description": "proximité sensorielle ou littérale entre le télépathe et sa cible, vient représenter l'importance immédiate de la cible dans le paysage physique du télépathe",
                             "items": [
                                 {
-                                    "item_name": "non nécessaire",
-                                    "item_description": "sous-liste non pertinente",
-                                    "item_description_alt": null,
+                                    "item_name": "Distance nulle",
+                                    "item_description": "Le Télépathe agit sur sa propre conscience.",
+                                    "item_description_alt": "Le Télépathe agit sur sa propre conscience.",
                                     "item_quantitative_effect": null,
                                     "item_value": 0
                                 },
                                 {
                                     "item_name": "Dialogue établi",
-                                    "item_description": "Attention directe réciproque entre la cible et le parapsy",
-                                    "item_description_alt": "Contact physique",
+                                    "item_description": "Le Télépathe détecte la conscience de sa cible si les deux dirigent leur attention l’un vers l’autre (réciproque directe) (contact visuel réciproque direct, discussion non-téléphonique, etc.).",
+                                    "item_description_alt": "Le Télépathe a besoin d’un contact physique directe pour détecter la conscience de sa cible.",
                                     "item_quantitative_effect": null,
                                     "item_value": 1
                                 },
                                 {
                                     "item_name": "Individu perçu",
-                                    "item_description": "Attention indirecte ou unilatérale entre la cible et le parapsy",
-                                    "item_description_alt": "Dans un rayon de VOLONTÉ mètres",
+                                    "item_description": "Le Télépathe détecte la conscience de sa cible si elle lui prête attention (réciproque indirecte) OU s’il la perçoit directement (unilatérale directe).",
+                                    "item_description_alt": "Le Télépathe a besoin d’être dans un rayon de VOLONTÉ mètres autour de sa cible pour la détecter.",
                                     "item_quantitative_effect": null,
                                     "item_value": 2
                                 },
                                 {
                                     "item_name": "Distance limitée",
-                                    "item_description": "Attention indirecte et unilatérale entre la cible et le parapsy",
-                                    "item_description_alt": "Dans un rayon de 10 x VOLONTÉ mètres",
+                                    "item_description": "Le Télépathe a seulement besoin de percevoir sa cible pour détecter sa conscience (unilatérale indirecte).",
+                                    "item_description_alt": "Le Télépathe a besoin d’être dans un rayon de 10 fois VOLONTÉ mètres autour de sa cible pour la détecter.",
                                     "item_quantitative_effect": null,
                                     "item_value": 3
                                 },
                                 {
                                     "item_name": "Longue distance",
-                                    "item_description": "Ignorance sensorielle réciproque entre la cible et le parapsy",
-                                    "item_description_alt": "Dans un rayon de VOLONTÉ kilomètres",
+                                    "item_description": "Le Télépathe a seulement besoin d’avoir la certitude de la présence de sa cible, pas de la percevoir (ignorance sensorielle).",
+                                    "item_description_alt": "Le Télépathe a besoin d’être dans un rayon de VOLONTÉ kilomètres autour de sa cible pour la détecter.",
                                     "item_quantitative_effect": null,
                                     "item_value": 4
                                 },
                                 {
                                     "item_name": "Distance illimitée",
-                                    "item_description": "Ignorance existentielle réciproque entre la cible et le parapsy",
-                                    "item_description_alt": "Sans limite de distance",
+                                    "item_description": "Le Télépathe peut détecter sa cible sans avoir besoin de savoir qu’elle est présente et sans la percevoir (ignorance sensorielle).",
+                                    "item_description_alt": "Le Télépathe détecte des consciences sans limite de distance.",
                                     "item_quantitative_effect": null,
                                     "item_value": 5
                                 }
@@ -213,43 +213,43 @@
                             "sublist_description": "Partie du système nerveux responsable de la détection, transmission et traitement initial des informations sensorielles provenant de l'environnement externe et interne",
                             "items": [
                                 {
-                                    "item_name": "non nécessaire",
-                                    "item_description": "sous-liste non pertinente",
+                                    "item_name": "Conscience de surface",
+                                    "item_description": "Le Télépathe n'a pas besoin de cet Accès, soit parce que sa pertinence est nulle, soit parce que sa pertinence est négligeable par rapport à celle d’un autre Accès, soit parce que le Télépathe n’a besoin que de vérifier que sa cible existe.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 0
                                 },
                                 {
-                                    "item_name": "Sens primaire conscient ",
-                                    "item_description": "Vue active, sons entendus",
+                                    "item_name": "Système périphérique",
+                                    "item_description": "Le Télépathe accède aux récepteurs sensoriels et à leur fonctionnement, permettant d’agir sur la conversion de stimuli extérieurs en signaux nerveux.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": "Système Nerveux pour action impliquant la Caractéristique",
                                     "item_value": 1
                                 },
                                 {
-                                    "item_name": "Sens secondaire conscient",
-                                    "item_description": "Toucher, goût, odorat, proprioception",
+                                    "item_name": "Circuits réflexes",
+                                    "item_description": "Le Télépathe peut agir sur les réflexes musculaires immédiats, donnant accès aux sens de la proprioception de l’équilibre.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": "Système Nerveux",
                                     "item_value": 2
                                 },
                                 {
-                                    "item_name": "Imagination sensorielle",
-                                    "item_description": "Images mentales, sons imaginés",
+                                    "item_name": "Cortex sensoriel",
+                                    "item_description": "Le Télépathe peut influer sur la compréhension immédiate des informations perçues, l’organisation des stimuli permettant l’identification de motifs simples.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": "Malus de Qualité associée la Caractéristique",
                                     "item_value": 3
                                 },
                                 {
-                                    "item_name": "Immersion sensorielle",
-                                    "item_description": "Contrôle sensoriel sur le sens de la réalité",
+                                    "item_name": "Immersion multisensorielle",
+                                    "item_description": "Le Télépathe a accès aux mécanismes d’intégration des informations sensorielles, et peut agir sur les déductions immédiates complexes. Cela englobe partiellement le sens de la réalité.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": "Bonus de Qualité associée la Caractéristique",
                                     "item_value": 4
                                 },
                                 {
-                                    "item_name": "Perception subliminale",
-                                    "item_description": "Stimuli sous le seuil de conscience",
+                                    "item_name": "Conscience du réel",
+                                    "item_description": "Le Télépathe a accès à la totalité des mécanismes permettant à la cible de percevoir le monde réel.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": "Valeur de la Caractéristique",
                                     "item_value": 5
@@ -258,46 +258,46 @@
                         },
                         {
                             "sublist_name": "Système Limbique",
-                            "sublist_description": "Partie du système nerveux jouant un rôle central dans les émotions, la mémoire, la motivation et les comportements instinctifs",
+                            "sublist_description": "Partie du système nerveux jouant un rôle central dans les émotions, la motivation et les comportements instinctifs",
                             "items": [
                                 {
-                                    "item_name": "non nécessaire",
-                                    "item_description": "sous-liste non pertinente",
+                                    "item_name": "Conscience de surface",
+                                    "item_description": "Le Télépathe n'a pas besoin de cet Accès, soit parce que sa pertinence est nulle, soit parce que sa pertinence est négligeable par rapport à celle d’un autre Accès, soit parce que le Télépathe n’a besoin que de vérifier que sa cible existe.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 0
                                 },
                                 {
-                                    "item_name": "Émotions de surface",
-                                    "item_description": "Ce que la cible ressent consciemment maintenant",
+                                    "item_name": "Émotions primaires",
+                                    "item_description": "Le Télépathe accède aux systèmes responsables des réponses basiques aux stimuli comme la peur, la joie ou la colère.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": "Système Nerveux pour action impliquant la Caractéristique",
                                     "item_value": 1
                                 },
                                 {
-                                    "item_name": "Émotions primaires",
-                                    "item_description": "Peur, joie, colère, tristesse",
+                                    "item_name": "Émotions complexes",
+                                    "item_description": "Le Télépathe accède aux systèmes responsables des réponses complexes aux stimuli comme la jalousie, tristesse, fierté, honte, etc.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": "Système Nerveux",
                                     "item_value": 2
                                 },
                                 {
-                                    "item_name": "Émotions complexes",
-                                    "item_description": "Jalousie, nostalgie, fierté, honte",
+                                    "item_name": "Traitement motivationnel",
+                                    "item_description": "Le Télépathe accède au centre de la récompense, qui commande les processus décisionnels",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": "Malus de Qualité associée la Caractéristique",
                                     "item_value": 3
                                 },
                                 {
-                                    "item_name": "États affectifs profonds",
-                                    "item_description": "Attachement, trauma, désir inconscient",
+                                    "item_name": "Structure sociale",
+                                    "item_description": "Le Télépathe peut agir sur la compréhension et l’expression d’affects sociaux complexes.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": "Bonus de Qualité associée la Caractéristique",
                                     "item_value": 4
                                 },
                                 {
                                     "item_name": "Architecture émotionnelle",
-                                    "item_description": "Tempérament, patterns affectifs fondamentaux",
+                                    "item_description": "Le Télépathe peut agir sur l’identité émotionnelle et sociale de sa cible, tous les paramètres psychologiques issus de son expérience.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": "Valeur de la Caractéristique",
                                     "item_value": 5
@@ -306,47 +306,47 @@
                         },
                         {
                             "sublist_name": "Système Cognitif",
-                            "sublist_description": "Partie du système nerveux permettant l'acquisition, le traitement, le stockage et l'utilisation de l'information pour la pensée abstraite, le raisonnement et l'adaptation intelligente",
+                            "sublist_description": "Partie du système nerveux permettant le traitement, le stockage et l'utilisation de l'information pour la pensée abstraite, le raisonnement et l'adaptation intelligente",
                             "items": [
                                 {
-                                    "item_name": "non nécessaire",
-                                    "item_description": "sous-liste non pertinente",
-                                    "item_description_alt": null,
+                                    "item_name": "Conscience de surface",
+                                    "item_description": "Le Télépathe n'a pas besoin de cet Accès, soit parce que sa pertinence est nulle, soit parce que sa pertinence est négligeable par rapport à celle d’un autre Accès, soit parce que le Télépathe n’a besoin que de vérifier que sa cible existe.",
+                                    "item_description_alt": "Le Télépathe a seulement accès à la surface de l’esprit de sa cible, cela ne permet que de vérifier qu’elle existe.",
                                     "item_quantitative_effect": null,
                                     "item_value": 0
                                 },
                                 {
                                     "item_name": "Pensées destinées",
-                                    "item_description": "Ce que la cible veut communiquer",
-                                    "item_description_alt": null,
+                                    "item_description": "Le Télépathe n’a accès qu’aux pensées que sa cible est délibérément en train de lui adresser.",
+                                    "item_description_alt": "Le Télépathe n’a accès qu’aux pensées que sa cible est délibérément en train de lui adresser.",
                                     "item_quantitative_effect": "Système Nerveux pour action impliquant la Caractéristique",
                                     "item_value": 1
                                 },
                                 {
-                                    "item_name": "Monologue intérieur",
-                                    "item_description": "Pensées verbales conscientes",
-                                    "item_description_alt": null,
+                                    "item_name": "Cognition immédiate",
+                                    "item_description": "Le Télépathe peut accéder au fil de pensées de sa cible, son attention instantanée.",
+                                    "item_description_alt": "Le Télépathe a accès à la permanence de l’objet.",
                                     "item_quantitative_effect": "Système Nerveux",
                                     "item_value": 2
                                 },
                                 {
-                                    "item_name": "Mémoire récente",
-                                    "item_description": "Souvenirs des dernières heures/jours",
-                                    "item_description_alt": null,
+                                    "item_name": "Raisonnement basique",
+                                    "item_description": "Le Télépathe atteint les mécanismes spontanés du langage et de la planification.",
+                                    "item_description_alt": "Le Télépathe a accès aux souvenirs des dernières heures la cible.",
                                     "item_quantitative_effect": "Malus de Qualité associée la Caractéristique",
                                     "item_value": 3
                                 },
                                 {
-                                    "item_name": "Mémoire profonde",
-                                    "item_description": "Souvenirs anciens, refoulés, fragmentés",
-                                    "item_description_alt": null,
+                                    "item_name": "Fonction profonde",
+                                    "item_description": "Le Télépathe atteint les mécanismes conscients et calculés du langage et de la planification.",
+                                    "item_description_alt": "Le Télépathe a accès à tous les souvenirs de la cible auxquels elle peut accéder elle-même.",
                                     "item_quantitative_effect": "Bonus de Qualité associée la Caractéristique",
                                     "item_value": 4
                                 },
                                 {
                                     "item_name": "Logique inconsciente",
-                                    "item_description": "Logique sous-jacente, biais, conditionnements",
-                                    "item_description_alt": null,
+                                    "item_description": "Le Télépathe a accès à la totalité des fonctions de raisonnement de la cible, y compris ses biais cognitifs et sa prise de décision.",
+                                    "item_description_alt": "Le Télépathe a accès à la mémoire corporelle et aux souvenirs fragmentés, refoulés.",
                                     "item_quantitative_effect": "Valeur de la Caractéristique",
                                     "item_value": 5
                                 }
@@ -357,43 +357,43 @@
                             "sublist_description": "Partie du système nerveux responsable de la planification, du contrôle et de l'exécution des mouvements volontaires et involontaires par l'activation des muscles squelettiques, lisses et cardiaques",
                             "items": [
                                 {
-                                    "item_name": "non nécessaire",
-                                    "item_description": "sous-liste non pertinente",
+                                    "item_name": "Conscience de surface",
+                                    "item_description": "Le Télépathe n'a pas besoin de cet Accès, soit parce que sa pertinence est nulle, soit parce que sa pertinence est négligeable par rapport à celle d’un autre Accès, soit parce que le Télépathe n’a besoin que de vérifier que sa cible existe.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 0
                                 },
                                 {
-                                    "item_name": "Intention motrice consciente",
-                                    "item_description": "Mouvements que la cible planifie",
+                                    "item_name": "Grands muscles volontaires",
+                                    "item_description": "Le Télépathe accède aux nerfs moteurs responsables individuels de mouvements amples, comme le biceps, le grand dorsal, etc.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": "Système Nerveux pour action impliquant la Caractéristique",
                                     "item_value": 1
                                 },
                                 {
-                                    "item_name": "Grands muscles volontaires",
-                                    "item_description": "Bras, jambes, torse",
+                                    "item_name": "Petits muscles volontaires",
+                                    "item_description": "Le Télépathe accède aux nerfs moteurs responsables individuels de mouvements précis, comme les doigts, la langue, les yeux, etc.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": "Système Nerveux",
                                     "item_value": 2
                                 },
                                 {
-                                    "item_name": "Petits muscles volontaires",
-                                    "item_description": "Doigts, yeux, bouche",
+                                    "item_name": "Noyaux postural",
+                                    "item_description": "Le Télépathe touche à la conception automatique de mouvements complexes conscients, comme la marche automatique, la parole, la saisie manuelle, etc.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": "Malus de Qualité associée la Caractéristique",
                                     "item_value": 3
                                 },
                                 {
                                     "item_name": "Muscles semi-autonomes",
-                                    "item_description": "Respiration, déglutition",
+                                    "item_description": "Le Télépathe atteint le centre des mouvements automatiques constants, comme la respiration ou la déglutition.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": "Bonus de Qualité associée la Caractéristique",
                                     "item_value": 4
                                 },
                                 {
                                     "item_name": "Muscles autonomes",
-                                    "item_description": "Cœur, digestion, pupilles",
+                                    "item_description": "Le Télépathe accède au système musculaire inconscient responsable de la digestion et le système cardio-vasculaire.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": "Valeur de la Caractéristique",
                                     "item_value": 5
@@ -402,47 +402,47 @@
                         },
                         {
                             "sublist_name": "Système Ethéré",
-                            "sublist_description": "Le système paraphysique distinct du système nerveux, comparable à l'âme, contenant des informations sur l'identité d'un individu au sens métaphysique, génétique et historique, qui se manifeste sous la forme de deux ailes nervurées invisibles à l'oeil nu et dont l'apparence, unique telle l'empreinte digitale. Cette sous-liste est pertinente uniquement si l'Ether, les informations génétiques ou les capacités surnaturelles de la cible sont explicitement mentionnées.",
+                            "sublist_description": "Le système paraphysique distinct du système nerveux, comparable à l'âme, contenant des informations sur l'identité d'un individu au sens métaphysique, génétique et historique, qui se manifeste sous la forme de deux ailes nervurées invisibles à l'oeil nu et dont l’apparence est unique telle l'empreinte digitale. Une fois détecté, ce système permet une localisation géographique du corps physique de son propriétaire. Cette sous-liste est pertinente uniquement si l'Ether, les informations génétiques ou les capacités surnaturelles de la cible sont explicitement mentionnées.",
                             "items": [
                                 {
-                                    "item_name": "non nécessaire",
-                                    "item_description": "sous-liste non pertinente",
-                                    "item_description_alt": null,
+                                    "item_name": "Non nécessaire",
+                                    "item_description": "Le Télépathe n'a pas accès à l’Ether de sa cible, il n’en perçoit absolument rien.",
+                                    "item_description_alt": "Le Télépathe n'a pas accès à l’Ether de sa cible, il n’en perçoit absolument rien.",
                                     "item_quantitative_effect": null,
                                     "item_value": 0
                                 },
                                 {
                                     "item_name": "Information identitaire",
-                                    "item_description": "Sans information spécifique, image relative",
-                                    "item_description_alt": "pour comparaison",
-                                    "item_quantitative_effect": null,
+                                    "item_description": "Le Télépathe perçoit les ailes de l’Ether sans aucun détail, comme un brouillard incolore ténu. La cible devient visible uniquement si le Télépathe lui fait directement face.",
+                                    "item_description_alt": "Le Télépathe accède uniquement à la l’existence métaphysique, cela ne permet qu’un constat sur la présence de la cible, “présence” prenant ici n’importe quelle définition.",
+                                    "item_quantitative_effect": "Distance maximum de localisation: SENSIBILITÉ",
                                     "item_value": 1
                                 },
                                 {
                                     "item_name": "Couverture spatiale",
-                                    "item_description": "Image de la taille des ailes",
-                                    "item_description_alt": "Accès aux informations parapsychiques (alpha, beta, gamma)",
-                                    "item_quantitative_effect": null,
+                                    "item_description": "Le Télépathe peut associer une notion de taille aux ailes de l’Ether mais aucune autre information. Le Télépathe peut localiser sa cible, quelque soit la position de sa cible autour de lui.",
+                                    "item_description_alt": "Le Télépathe accède à l'identité sociale immédiate de sa cible, qui représente son “rôle” dans sa situation actuelle, ses intentions, sa place dans le groupe, etc.",
+                                    "item_quantitative_effect": "Distance maximum de localisation: SENSIBILITÉ",
                                     "item_value": 2
                                 },
                                 {
                                     "item_name": "Réponse fréquentielle",
-                                    "item_description": "Couleur des ailes",
-                                    "item_description_alt": "Accès aux informations génétiques (mutations, métanthropies)",
-                                    "item_quantitative_effect": null,
+                                    "item_description": "Le Télépathe distingue la teinte de l’Ether, qui lui apparaît comme deux ailes floues colorées. Une fois sa cible détectée, le Télépathe peut la localiser à travers des surfaces opaques mais uniquement face à lui.",
+                                    "item_description_alt": "Le Télépathe accède à l’identité parapsychique de sa cible, l’étendue de son éveil aux capacités parapsychologiques.",
+                                    "item_quantitative_effect": "Distance maximum de localisation: SENSIBILITÉ",
                                     "item_value": 3
                                 },
                                 {
                                     "item_name": "Extrémités individuelles",
-                                    "item_description": "Image précise des contours des arborescences",
-                                    "item_description_alt": "Accès à la mémoire génétique (historique des aïeux, états symbiotiques)",
-                                    "item_quantitative_effect": null,
+                                    "item_description": "Les contours de l’Ether se précise pour le Télépathe, et se présente comme deux ailes colorées de tailles variables dont la surface apparaît homogène. Le Télépathe peut le trouver quelle que soit la direction, et même à travers les matériaux opaques.",
+                                    "item_description_alt": "Le Télépathe accède à l’identité génétique de sa cible.",
+                                    "item_quantitative_effect": "Distance maximum de localisation: SENSIBILITÉ",
                                     "item_value": 4
                                 },
                                 {
-                                    "item_name": "Structure génétique",
-                                    "item_description": "Image précise de l’ensemble des ailes",
-                                    "item_description_alt": "Accès aux noeuds individuels, pour les modifications complexes",
+                                    "item_name": "Structure métaphysique",
+                                    "item_description": "Le Télépathe a accès à la totalité des détails de l’Ether, jusqu’au complexe réseau de striures qui en compose la surface. Il peut percevoir la position géographique de sa cible sans limite de distance, d’obstacle ou de direction.",
+                                    "item_description_alt": "Le Télépathe à la totalité des composants qui font l’unicité de sa cible. Il peut, en quelque sorte, entamer une conversation métatextuelle avec le Maître de Jeu à propos de la cible, bien que celui-ci aie bien sûr le dernier mot.",
                                     "item_quantitative_effect": null,
                                     "item_value": 5
                                 }
@@ -459,43 +459,43 @@
                             "sublist_description": "Exploration passive et indetectable du système visé permettant uniquement l'acquisition d'informations. Toute action impliquant une connaissance du contenu ou de l'état du système visé dont le télépathe ne dispose pas en premier lieu doit avoir un composant d'Analyse.",
                             "items": [
                                 {
-                                    "item_name": "non nécessaire",
-                                    "item_description": "sous-liste non pertinente",
+                                    "item_name": "À l’aveugle",
+                                    "item_description": "Aucune observation n’est faite, que ce soit parce qu’elle ne serait pas nécessaire ou parce que le Télépathe est déjà en possession de toutes les informations dont il a besoin.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 0
                                 },
                                 {
                                     "item_name": "Constat binaire",
-                                    "item_description": "Présent/absent, vrai/faux, actif/inactif",
+                                    "item_description": "Le Télépathe peut faire une mesure simple sur le système ciblé, s’apparentant à une question fermée. La réponse peut être oui ou non.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 1
                                 },
                                 {
                                     "item_name": "Observation d'état",
-                                    "item_description": "Intensité, qualité générale",
+                                    "item_description": "Le Télépathe peut faire une mesure simple sur le système ciblé, dont le résultat est une grandeur continue, comme un pourcentage, ou juste un adjectif d’intensité.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 2
                                 },
                                 {
                                     "item_name": "Observation de contenu",
-                                    "item_description": "Détails spécifiques, nuances",
+                                    "item_description": "Le Télépathe peut faire une analyse simple sur le système ciblé, et en ressortir n’importe quelle information contenue par ce système.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 3
                                 },
                                 {
                                     "item_name": "Cartographie structurelle",
-                                    "item_description": "Relations entre éléments, patterns",
+                                    "item_description": "Le Télépathe peut faire une analyse complexe sur le système ciblé et retirer des informations à son propos, sur son fonctionnement ou son état, même si ces informations lui sont inaccessibles.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 4
                                 },
                                 {
                                     "item_name": "Analyse archéologique",
-                                    "item_description": "Reconstruction de l'historique, origines",
+                                    "item_description": "Le Télépathe peut faire une étude exhaustive sur le système ciblé, reconstituer des informations endommagées ou protégées, tirer des conclusions sur les causes de ses observations.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 5
@@ -504,46 +504,46 @@
                         },
                         {
                             "sublist_name": "Influence",
-                            "sublist_description": "Modification ou insertion d'information dans le système visé, sans observation aucune (toute information nécessaire doit déjà être en possession du télépathe) et sans réduction qualitative ou quantitative de l'efficacité de ses fonctions. Toute action agressive et délétère n'est PAS une influence.",
+                            "sublist_description": "Modification ou insertion d'information dans le système visé, sans observation aucune (toute information nécessaire doit déjà être en possession du télépathe) et sans réduction qualitative ou quantitative de l'efficacité de ses fonctions. Toute action agressive et délétère n'est PAS une Influence.",
                             "items": [
                                 {
-                                    "item_name": "non nécessaire",
-                                    "item_description": "sous-liste non pertinente",
+                                    "item_name": "Non nécessaire",
+                                    "item_description": "Le Télépathe n’utilise pas la sous-liste Influence, soit parce que l’action n’implique pas de modification, soit parce que la modification en question est une Attaque.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 0
                                 },
                                 {
                                     "item_name": "Suggestion simple",
-                                    "item_description": "Idée unique, claire, non-contraignante",
+                                    "item_description": "Le Télépathe implante une idée binaire et non-contraignante dans le système ciblé, une suggestion aisée à ignorer, qui peut surprendre mais ne peut pas gêner.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 1
                                 },
                                 {
-                                    "item_name": "Activation",
-                                    "item_description": "Déclenchement basique pouvant impliquer un effort momentané",
+                                    "item_name": "Activation simple",
+                                    "item_description": "Le Télépathe génère un stimulus subtil pouvant causer un léger effort de la part de la cible.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 2
                                 },
                                 {
                                     "item_name": "Suggestion complexe",
-                                    "item_description": "Idée nuancée, conditionnelle",
+                                    "item_description": "Le Télépathe implante une idée nuancée, conditionnelle, potentiellement linguistique, dans le système visé.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 3
                                 },
                                 {
-                                    "item_name": "Occulter",
-                                    "item_description": "Rendre une information temporairement inaccessible",
+                                    "item_name": "Traduction nerveuse",
+                                    "item_description": "Le Télépathe peut intercepter et modifier des informations en transit qui entrent et sortent du système visé.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 4
                                 },
                                 {
-                                    "item_name": "Modification",
-                                    "item_description": "Implanter un changement structurel durable. Ne comprend pas toute forme de suppression ou destruction.",
+                                    "item_name": "Modification durable",
+                                    "item_description": "Le Télépathe implante un changement structurel durable, altérant une fonction sur le long terme, sans aucune forme de suppression ou de destruction.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 5
@@ -552,46 +552,46 @@
                         },
                         {
                             "sublist_name": "Attaque",
-                            "sublist_description": "Perturbation ou destruction de fonctions dans le système visé, sans observation aucune (toute information nécessaire doit déjà être en possession du télépathe). Sont inclues toutes les actions agressives et délètères.",
+                            "sublist_description": "Perturbation ou destruction de fonctions dans le système visé, sans observation aucune (toute information nécessaire doit déjà être en possession du télépathe). Sont inclues toutes les actions agressives et délétères.",
                             "items": [
                                 {
-                                    "item_name": "non nécessaire",
-                                    "item_description": "sous-liste non pertinente",
+                                    "item_name": "Non nécessaire",
+                                    "item_description": "Le Télépathe n’utilise pas la sous-liste Attaque parce que l’action n’implique pas d’agression, de suppression, de ralentissement, et aucune conséquence directe invasive ou néfaste.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 0
                                 },
                                 {
                                     "item_name": "Distraction",
-                                    "item_description": "Briser la concentration, créer du bruit",
+                                    "item_description": "Le Télépathe implante dans le système visé un stimulus difficile à ignorer, mais simple et qui ne peut pas causer de désagrément.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 1
                                 },
                                 {
                                     "item_name": "Engourdir",
-                                    "item_description": "Ralentir un processus",
+                                    "item_description": "Le Télépathe cause momentanément un ralentissement ou une confusion dans le système visé.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 2
                                 },
                                 {
-                                    "item_name": "Empêcher",
-                                    "item_description": "Bloquer une action/pensée spécifique",
+                                    "item_name": "Occulter",
+                                    "item_description": "Le Télépathe empêche momentanément le système visé de recevoir des informations.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 3
                                 },
                                 {
                                     "item_name": "Surcharge",
-                                    "item_description": "Saturer un système",
+                                    "item_description": "Le Télépathe peut implanter n’importe quel stimulus simple, qu’il soit contradictoire avec d’autres, contraignant ou douloureux.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 4
                                 },
                                 {
                                     "item_name": "Détruire",
-                                    "item_description": "Dommages permanents, suppression définitive d'informations ou amoindrissement d'une fonction",
+                                    "item_description": "Le Télépathe inflige des dommages permanents, supprime définitivement des informations ou amoindrit une fonction.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 5
@@ -603,43 +603,43 @@
                             "sublist_description": "Préservation ou augmentation d'une fonction du système visé, sans observation aucune (toute information nécessaire doit déjà être en possession du télépathe)",
                             "items": [
                                 {
-                                    "item_name": "non nécessaire",
-                                    "item_description": "sous-liste non pertinente",
+                                    "item_name": "Non nécessaire",
+                                    "item_description": "Le Télépathe n’utilise pas la sous-liste Protection parce que son action n’implique aucune augmentation, réparation ou préservation.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 0
                                 },
                                 {
-                                    "item_name": "Isoler",
-                                    "item_description": "Créer une barrière contre influences externes",
+                                    "item_name": "Isolation",
+                                    "item_description": "Le Télépathe peut empêcher les échanges dans le système visé pour protéger des influences externes.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 1
                                 },
                                 {
-                                    "item_name": "Renforcer",
-                                    "item_description": "Amplifier une capacité/résistance existante",
+                                    "item_name": "Stabilisation",
+                                    "item_description": "Le Télépathe rétablit un système perturbé dans son fonctionnement sain et optimal, sans pouvoir réparer des dommages structurels.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 2
                                 },
                                 {
-                                    "item_name": "Stabiliser",
-                                    "item_description": "Calmer un état perturbé, restaurer l'équilibre",
+                                    "item_name": "Préférence",
+                                    "item_description": "Le Télépathe peut filtrer des échanges dans le système visé et émettre des conditions complexes pour le passages des informations, par exemple pour empêcher des entrées de natures néfastes.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 3
                                 },
                                 {
-                                    "item_name": "Réparer",
-                                    "item_description": "Guérir un trauma psychique, restaurer une mémoire",
+                                    "item_name": "Stimulation",
+                                    "item_description": "Le Télépathe facilite ou canalise les fonctions du système visé, augmentant ainsi son efficacité.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 4
                                 },
                                 {
-                                    "item_name": "Restructurer",
-                                    "item_description": "Reconfigurer profondément des patterns mentaux",
+                                    "item_name": "Réparation",
+                                    "item_description": "Le Télépathe reconstitue une fonction du système visé endommagée, lui rend ses propriétés intactes les plus récentes.",
                                     "item_description_alt": null,
                                     "item_quantitative_effect": null,
                                     "item_value": 5

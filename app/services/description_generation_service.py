@@ -23,7 +23,7 @@ if __name__ == "__main__":
     from app.services.composition_prediction_service import compositionPredictionService
     chat_model = model
     ability_input=abilityDescription(
-        ability_description="décupler la confiance en soi d'un ami en le touchant"
+        ability_description="décupler momentanément la confiance en soi d'un ami en le touchant"
     )
     prediction_service = compositionPredictionService(
         chat_model=chat_model,
